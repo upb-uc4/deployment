@@ -10,7 +10,7 @@ source env.sh
 
 ./start_cluster.sh $1
 
-pushd HLF_NETWORK
+pushd $HLF_NETWORK
 if [ $# -eq 2 ]
 then
 	./deploy.sh -c /data/$1/hyperledger/ -b $2
