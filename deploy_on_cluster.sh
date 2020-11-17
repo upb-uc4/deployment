@@ -1,24 +1,24 @@
 #!/bin/bash
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Starting Traefik"
-echo "================================================================================"
+echo $HEADLINE
 kubectl apply -f traefik/ingress-route.yaml
 kubectl apply -f traefik/traefik-service.yaml
 kubectl apply -f traefik/traefik-deployment.yaml
 kubectl apply -f traefik/traefik-router.yaml
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Starting Support"
-echo "================================================================================"
+echo $HEADLINE
 kubectl create namespace uc4-support
 kubectl apply -f support/imaginary.yaml
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Starting Postgres"
-echo "================================================================================"
+echo $HEADLINE
 kubectl create namespace postgres
 kubectl apply -f postgres/postgres-config.yaml
 kubectl apply -f postgres/postgres-configmap.yaml
@@ -27,18 +27,18 @@ kubectl apply -f postgres/postgres-deployment.yaml
 kubectl apply -f postgres/postgres-service.yaml
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Starting Kafka"
-echo "================================================================================"
+echo $HEADLINE
 kubectl create namespace kafka
 kubectl apply -f kafka/kafka.yaml  -n kafka
 sleep 10
 kubectl apply -f kafka/kafka-single.yaml  -n kafka
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Wait for Kafka & Postgres"
-echo "================================================================================"
+echo $HEADLINE
 (
 	kubectl wait --for=condition=Ready pods --all --timeout=300s -n postgres
 	kubectl wait kafka/strimzi --for=condition=Ready --timeout=300s  -n kafka
@@ -59,16 +59,16 @@ echo "==========================================================================
 sleep 60
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Set RBAC"
-echo "================================================================================"
+echo $HEADLINE
 kubectl create namespace uc4-lagom
 kubectl apply -f rbac.yaml
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Starting Services"
-echo "================================================================================"
+echo $HEADLINE
 
 ./versions.sh
 

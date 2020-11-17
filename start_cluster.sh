@@ -7,8 +7,8 @@ if [ $# -eq 0 ]
 fi
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Start Cluster"
-echo "================================================================================"
+echo $HEADLINE
 
 kind create cluster --name $1 --config "clusters/$1_cluster_config.yaml"

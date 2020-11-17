@@ -7,9 +7,9 @@ if [ $# -eq 0 ]
 fi
 
 echo
-echo "================================================================================"
+echo $HEADLINE
 echo "Delete Cluster"
-echo "================================================================================"
+echo $HEADLINE
 
 kind delete cluster --name $1
 rm "/data/$1" -r
