@@ -1,4 +1,6 @@
 #!/bin/bash
+source env.sh
+
 echo
 echo $HEADLINE
 echo "Starting Traefik"
@@ -70,7 +72,7 @@ echo $HEADLINE
 echo "Starting Services"
 echo $HEADLINE
 
-./versions.sh
+source versions.sh
 
 kubectl create secret generic application-secret --from-literal=secret="$(openssl rand -base64 48)" -n uc4-lagom
 kubectl create secret generic uc4-master-secret --from-literal=secret="$(openssl rand -base64 48)" -n uc4-lagom

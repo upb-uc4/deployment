@@ -6,6 +6,8 @@ if [ $# -eq 0 ]
     exit -1
 fi
 
+source env.sh
+
 echo
 echo $HEADLINE
 echo "Start Cluster"

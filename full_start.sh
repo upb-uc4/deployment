@@ -6,7 +6,7 @@ if [ $# -eq 0 ]
     exit -1
 fi
 
-./env.sh
+source env.sh
 
 ./start_cluster.sh $1
 
