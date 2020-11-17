@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: configuration
-          image: "uc4official/configuration_service:latest"
+          image: "uc4official/configuration_service:$CONFIGURATION_VERSION"
           imagePullPolicy: Always
           env:
             - name: JAVA_OPTS

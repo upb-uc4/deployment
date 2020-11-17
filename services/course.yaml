@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: course
-          image: "uc4official/course_service:latest"
+          image: "uc4official/course_service:$COURSE_VERSION"
           imagePullPolicy: Always
           env:
             - name: JAVA_OPTS

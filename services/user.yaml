@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: user
-          image: "uc4official/user_service:latest"
+          image: "uc4official/user_service:$USER_VERSION"
           imagePullPolicy: Always
           env:
             - name: JAVA_OPTS

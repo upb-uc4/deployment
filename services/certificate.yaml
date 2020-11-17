@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: certificate
-          image: "uc4official/certificate_service:latest"
+          image: "uc4official/certificate_service:$CERTIFICATE_VERSION"
           imagePullPolicy: Always
           
           env:

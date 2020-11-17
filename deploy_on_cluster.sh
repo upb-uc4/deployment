@@ -74,17 +74,17 @@ kubectl create secret generic uc4-master-secret --from-literal=secret="$(openssl
 kubectl create secret generic uc4-kafka-salt --from-literal=secret="$(openssl rand -base64 48)" -n uc4-lagom
 
 kubectl apply -f secrets/user.yaml
-kubectl apply -f services/user.yaml
+envsubst < services/user.yaml | kubectl apply -f -
 
 kubectl apply -f secrets/authentication.yaml
-kubectl apply -f services/authentication.yaml
+envsubst < services/authentication.yaml | kubectl apply -f -
 
 kubectl apply -f secrets/course.yaml
-kubectl apply -f services/course.yaml
+envsubst < services/course.yaml | kubectl apply -f -
 
-kubectl apply -f services/matriculation.yaml
+envsubst < services/matriculation.yaml | kubectl apply -f -
 
 kubectl apply -f secrets/certificate.yaml
-kubectl apply -f services/certificate.yaml
+envsubst < services/certificate.yaml | kubectl apply -f -
 
-kubectl apply -f services/configuration.yaml
+envsubst < services/configuration.yaml | kubectl apply -f -

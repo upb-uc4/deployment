@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: matriculation
-          image: "uc4official/matriculation_service:latest"
+          image: "uc4official/matriculation_service:$MATRICULATION_VERSION"
           imagePullPolicy: Always
           
           env:
