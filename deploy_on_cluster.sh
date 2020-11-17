@@ -91,3 +91,6 @@ kubectl apply -f secrets/certificate.yaml
 envsubst < services/certificate.yaml | kubectl apply -f -
 
 envsubst < services/configuration.yaml | kubectl apply -f -
+
+kubectl apply -f secrets/examreg.yaml
+envsubst < services/examreg.yaml | kubectl apply -f -
