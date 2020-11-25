@@ -42,7 +42,7 @@ spec:
       services:
         - name: configuration
           namespace: uc4-lagom
-          port: 
+          port: 80
     - match: PathPrefix(`/examreg-management`)
       kind: Rule
       services:
