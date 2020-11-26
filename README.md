@@ -1,6 +1,6 @@
 # Deployment
 Contains the deployment for UC4.  
-`{}` is a needed parameter.  
+`{}` is a required parameter.  
 `[]` is an optional parameter.
 
 The current existing clusters are:
