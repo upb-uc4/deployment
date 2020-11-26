@@ -4,7 +4,7 @@ Contains the deployment for UC4.
 `[]` is an optional parameter.
 
 ## Start Cluster with Hyperledger and Lagom and Co
-The service version are defined in `versions.sh`.  
+The service versions are defined in `versions.sh`.  
 The position of the Hyperledger-Deploy-Script is defined in `env.sh`.
 ```bash
 ./full_start.sh {clusterName} [chaincodeVersion]
