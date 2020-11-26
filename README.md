@@ -41,7 +41,7 @@ This command deploys on the current cluster context.
 ./deploy_on_cluster.sh
 ```
 
-## Remove specific namespaces (and everything their contain)
+## Remove specific namespaces (and everything they contain)
 ```bash
 kind delete namespace {namespace}
 ```
