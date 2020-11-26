@@ -3,6 +3,11 @@ Contains the deployment for UC4.
 `{}` is a needed parameter.  
 `[]` is an optional parameter.
 
+The current existing clusters are:
+ - experimental
+ - development
+ - production
+
 ## Start Cluster with Hyperledger and Lagom and Co
 The service versions are defined in `versions.sh`.  
 The position of the Hyperledger-Deploy-Script is defined in `env.sh`.
@@ -35,6 +40,19 @@ This command deploys on the current cluster context.
 ```bash
 ./deploy_on_cluster.sh
 ```
+
+## Remove specific namespaces (and everything their contain)
+```bash
+kind delete namespace {namespace}
+```
+Namespaces are:
+ - uc4-lagom, every service of Lagom
+ - uc4-support, supporting container like imaginary
+ - hlf, everything from Hyperledger
+ - postgres, everything from postgres
+ - kafka, everything from kafka
+ - default, traefik (not deletable)
+
 ## Restart a specific service
 ```bash
 kubectl rollout restart deployment {serviceName} -n uc4-lagom
