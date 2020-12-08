@@ -1,0 +1,18 @@
+{
+    "name": "Bachelor Philosophy v1",
+    "active": true,
+    "modules": [
+      {
+        "id": "M.1358.15686",
+        "name": "Introduction to Philosophy"
+      },
+      {
+        "id": "M.1358.15653",
+        "name": "Theoretical Philosophy"
+      },
+      {
+        "id": "M.1358.15418",
+        "name": "Applied Ethics"
+      }
+    ]
+  }

@@ -1,0 +1,28 @@
+{
+    "governmentId": "governmentIdStudent",
+    "authUser": {
+      "username": "student",
+      "password": "student",
+      "role": "Student"
+    },
+    "user":{
+      "username": "student",
+      "enrollmentIdSecret": "",
+      "isActive": true,
+      "role": "Student",
+      "address": {
+          "street": "Gänseweg",
+          "houseNumber": "42a",
+          "zipCode": "13337",
+          "city": "Entenhausen",
+          "country": "Germany"
+      },
+      "firstName": "Stu",
+      "lastName": "Dent",
+      "email": "student@mail.de",
+      "phoneNumber": "+49123456789",
+      "birthDate": "1990-12-11",
+      "latestImmatriculation": "",
+      "matriculationId": "7421769"
+    }
+  }

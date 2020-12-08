@@ -1,0 +1,18 @@
+{
+    "name": "Bachelor Computer Science v3",
+    "active": true,
+    "modules": [
+      {
+        "id": "M.1275.01158",
+        "name": "Math 1"
+      },
+      {
+        "id": "M.1275.01159",
+        "name": "Math 2"
+      },
+      {
+        "id": "M.1275.78235",
+        "name": "Complexity Theory"
+      }
+    ]
+  }

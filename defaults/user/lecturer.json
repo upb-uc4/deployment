@@ -1,0 +1,28 @@
+{
+    "governmentId": "governmentIdLecturer",
+    "authUser": {
+      "username": "lecturer",
+      "password": "lecturer",
+      "role": "Lecturer"
+    },
+    "user": {
+      "username": "lecturer",
+      "enrollmentIdSecret": "",
+      "isActive": true,
+      "role": "Lecturer",
+      "address": {
+          "street": "Gänseweg",
+          "houseNumber": "42a",
+          "zipCode": "13337",
+          "city": "Entenhausen",
+          "country": "Germany"
+      },
+      "firstName": "Lect",
+      "lastName": "Urer",
+      "email": "lecturer@mail.de",
+      "phoneNumber": "+49123456789",
+      "birthDate": "1991-12-11",
+      "freeText": "Heute kommt der kleine Gauss dran.",
+      "researchArea": "Mathematics"
+    }
+  }
