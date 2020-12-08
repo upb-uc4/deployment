@@ -14,7 +14,7 @@ def post(url, directory, login_token):
     for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r') as file:
             
-            response = requests.post(url, data=file.read(), headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json"})
+            response = requests.post(url, data=file.read(), headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json"}, timeout=60)
 
             if response.status_code != 201 :
                 print(filename.removesuffix(".json") + " => " + response.text)
@@ -23,7 +23,7 @@ def post(url, directory, login_token):
 
 
 
-answer = requests.get("https://uc4.cs.uni-paderborn.de/api/experimental/authentication-management/login/machine", auth=(sys.argv[1], sys.argv[2]))
+answer = requests.get("https://uc4.cs.uni-paderborn.de/api/experimental/authentication-management/login/machine", auth=(sys.argv[1], sys.argv[2]), timeout=60)
 token = answer.json()["login"]
 
 post("https://uc4.cs.uni-paderborn.de/api/experimental/user-management/users", "user", token)
