@@ -5,11 +5,12 @@ import sys
 def post(url, directory, login_token):
 
     path = os.path.join("./defaults", directory)
+    headline = os.getenv('HEADLINE', "================================================================================")
 
     print()
-    print("================================================================================")
+    print(headline)
     print("Create default " + directory + "s")
-    print("================================================================================")
+    print(headline)
 
     for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r') as file:
