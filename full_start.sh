@@ -6,6 +6,8 @@ if [ $# -eq 0 ]
     exit -1
 fi
 
+set -e
+
 source env.sh
 
 ./start_cluster.sh $1
@@ -20,3 +22,7 @@ fi
 popd
 
 ./deploy_on_cluster.sh
+
+python3 add_defaults.py admin admin $1
+
+set +e

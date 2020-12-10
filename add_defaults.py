@@ -1,0 +1,37 @@
+import requests
+import os
+import sys
+
+def post(url, directory, login_token):
+
+    path = os.path.join("./defaults", directory)
+    headline = os.getenv('HEADLINE', "================================================================================")
+
+    print()
+    print(headline)
+    print("Create default " + directory + "s")
+    print(headline)
+
+    for filename in os.listdir(path):
+        with open(os.path.join(path, filename), 'r') as file:
+            
+            response = requests.post(url, data=file.read(), headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json"}, timeout=60)
+
+            if response.status_code != 201 :
+                print(os.path.splitext(filename)[0] + " => " + response.text)
+            else:
+                print(os.path.splitext(filename)[0] + " got created")
+
+cluster = sys.argv[3].strip()
+
+if cluster == "development":
+    cluster = "develop"
+
+url_prefix = "https://uc4.cs.uni-paderborn.de/api/" + cluster
+
+answer = requests.get(url_prefix + "/authentication-management/login/machine", auth=(sys.argv[1], sys.argv[2]), timeout=60)
+token = answer.json()["login"]
+
+post(url_prefix + "/user-management/users", "user", token)
+post(url_prefix + "/examreg-management/examination-regulations", "examreg", token)
+post(url_prefix + "/course-management/courses", "course", token)

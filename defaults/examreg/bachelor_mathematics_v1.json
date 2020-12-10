@@ -1,0 +1,14 @@
+{
+    "name": "Bachelor Mathematics v1",
+    "active": true,
+    "modules": [
+      {
+        "id": "M.1134.12888",
+        "name": "Analysis"
+      },
+      {
+        "id": "M.1134.12889",
+        "name": "Linear Algebra"
+      }
+    ]
+  }

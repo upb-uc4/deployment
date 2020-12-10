@@ -96,3 +96,23 @@ envsubst < services/configuration.yaml | kubectl apply -f -
 
 kubectl apply -f secrets/examreg.yaml
 envsubst < services/examreg.yaml | kubectl apply -f -
+
+echo
+echo $HEADLINE
+echo "Wait for Services"
+echo $HEADLINE
+(
+	kubectl wait --for=condition=Ready pods --all --timeout=300s -n uc4-lagom
+) || (
+	echo "Waiting error, trying again in a few seconds"
+	sleep 2
+	kubectl wait --for=condition=Ready pods --all --timeout=300s -n uc4-lagom
+) || (
+	echo "Waiting error, trying again in a few seconds"
+	sleep 10
+	kubectl wait --for=condition=Ready pods --all --timeout=300s -n uc4-lagom
+) || (
+	echo "Waiting failed"
+	exit -1
+)
+sleep 20
