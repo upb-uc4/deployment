@@ -23,6 +23,6 @@ popd
 
 ./deploy_on_cluster.sh
 
-python3 add_defaults.py admin admin
+python3 add_defaults.py admin admin $1
 
 set +e

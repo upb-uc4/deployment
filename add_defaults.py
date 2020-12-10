@@ -18,15 +18,20 @@ def post(url, directory, login_token):
             response = requests.post(url, data=file.read(), headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json"}, timeout=60)
 
             if response.status_code != 201 :
-                print(filename.removesuffix(".json") + " => " + response.text)
+                print(os.path.splitext(filename)[0] + " => " + response.text)
             else:
-                print(filename.removesuffix(".json") + " got created")
+                print(os.path.splitext(filename)[0] + " got created")
 
+cluster = sys.argv[3].strip()
 
+if cluster == "development":
+    cluster = "develop"
 
-answer = requests.get("https://uc4.cs.uni-paderborn.de/api/experimental/authentication-management/login/machine", auth=(sys.argv[1], sys.argv[2]), timeout=60)
+url_prefix = "https://uc4.cs.uni-paderborn.de/api/" + cluster
+
+answer = requests.get(url_prefix + "/authentication-management/login/machine", auth=(sys.argv[1], sys.argv[2]), timeout=60)
 token = answer.json()["login"]
 
-post("https://uc4.cs.uni-paderborn.de/api/experimental/user-management/users", "user", token)
-post("https://uc4.cs.uni-paderborn.de/api/experimental/examreg-management/examination-regulations", "examreg", token)
-post("https://uc4.cs.uni-paderborn.de/api/experimental/course-management/courses", "course", token)
+post(url_prefix + "/user-management/users", "user", token)
+post(url_prefix + "/examreg-management/examination-regulations", "examreg", token)
+post(url_prefix + "/course-management/courses", "course", token)
