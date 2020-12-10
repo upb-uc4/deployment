@@ -17,9 +17,9 @@
           "city": "Entenhausen",
           "country": "Germany"
       },
-      "firstName": "Stu",
-      "lastName": "Dent",
-      "email": "student@mail.de",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "jsmith@mail.de",
       "phoneNumber": "+49123456789",
       "birthDate": "1990-12-11",
       "latestImmatriculation": "",
