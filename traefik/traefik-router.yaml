@@ -49,3 +49,9 @@ spec:
         - name: examreg
           namespace: uc4-lagom
           port: 80
+    - match: PathPrefix(`/report-management`)
+      kind: Rule
+      services:
+        - name: report
+          namespace: uc4-lagom
+          port: 80
