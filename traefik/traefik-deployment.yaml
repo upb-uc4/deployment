@@ -29,6 +29,7 @@ spec:
           image: traefik:v2.2
           args:
             - --api.insecure
+            - --metrics.prometheus=true
             - --accesslog
             - --entrypoints.web.Address=:8000
             - --entrypoints.websecure.Address=:4443

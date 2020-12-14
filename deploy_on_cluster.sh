@@ -103,4 +103,4 @@ echo $HEADLINE
 	echo "Waiting failed"
 	exit -1
 )
-sleep 20
+sleep 60
