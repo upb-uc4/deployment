@@ -78,24 +78,12 @@ kubectl create secret generic application-secret --from-literal=secret="$(openss
 kubectl create secret generic uc4-master-secret --from-literal=secret="$(openssl rand -base64 48)" -n uc4-lagom
 kubectl create secret generic uc4-kafka-salt --from-literal=secret="$(openssl rand -base64 48)" -n uc4-lagom
 
-kubectl apply -f secrets/user.yaml
-envsubst < services/user.yaml | kubectl apply -f -
+kubectl apply -f secrets
 
-kubectl apply -f secrets/authentication.yaml
-envsubst < services/authentication.yaml | kubectl apply -f -
-
-kubectl apply -f secrets/course.yaml
-envsubst < services/course.yaml | kubectl apply -f -
-
-envsubst < services/matriculation.yaml | kubectl apply -f -
-
-kubectl apply -f secrets/certificate.yaml
-envsubst < services/certificate.yaml | kubectl apply -f -
-
-envsubst < services/configuration.yaml | kubectl apply -f -
-
-kubectl apply -f secrets/examreg.yaml
-envsubst < services/examreg.yaml | kubectl apply -f -
+for filename in services/*.yaml
+do
+   envsubst < $filename | kubectl apply -f -
+done
 
 echo
 echo $HEADLINE
@@ -115,4 +103,4 @@ echo $HEADLINE
 	echo "Waiting failed"
 	exit -1
 )
-sleep 20
+sleep 60
