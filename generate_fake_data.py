@@ -1,8 +1,10 @@
 from faker import Faker
 import json
 import random
+import os
 
 fake = Faker('en-US')
+fake.random.seed(4321)  
 
 roles = ["Student", "Admin", "Lecturer"]
 lecturer_ids = []
@@ -12,10 +14,13 @@ modules = {field: [] for field in fields_of_study}
 module_prefices = ["Topics of", 'Introduction to', "Applied", "Theorotical", "Experimental"]
 course_types = ["Lecture", "Project Group", "Seminar"]
 
-profile = fake.simple_profile()
 
 def getFakeUser(role):
     assert role in roles
+
+    profile = fake.simple_profile()
+    while len(profile["name"].split(" ")) != 2:  # Some names where like Mr. John Smith...
+        profile = fake.simple_profile()
 
     return {
         'governmentId': profile['username'] + fake.pystr(),
@@ -107,14 +112,22 @@ def getFakeCourse():
         "courseDescription": fake.paragraph(1),
     }
 
-for i in range(10):
-    print(json.dumps(getFakeStudent()))
+basepath = os.path.join("defaults", "generated")
+def writeToFile(data, _dir, filename):
+    directory = os.path.join(os.path.dirname(__file__), basepath, _dir)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    with open(os.path.join(directory, filename), "w+") as f:
+        f.write(data)
 
-for i in range(10):
-    print(json.dumps(getFakeLecturer()))
+for i in range(20):
+    writeToFile(json.dumps(getFakeStudent()), "students", str(i).zfill(2) + ".json")
 
-for i in range(10):
-    print(json.dumps(getFakeExamReg()))
+for i in range(5):
+    writeToFile(json.dumps(getFakeLecturer()), "lecturers", str(i).zfill(2) + ".json")
 
-for i in range(10):
-    print(json.dumps(getFakeCourse()))
+for i in range(8):
+    writeToFile(json.dumps(getFakeExamReg()), "examRegs", str(i).zfill(2) + ".json")
+
+for i in range(20):
+    writeToFile(json.dumps(getFakeCourse()), "courses", str(i).zfill(2) + ".json")
