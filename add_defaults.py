@@ -14,6 +14,7 @@ def post(url, directory, login_token):
 
     for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r', encoding="utf-8") as file:
+            print(file.read())
             
             response = requests.post(url, data=file.read(), headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json"}, timeout=60)
 
