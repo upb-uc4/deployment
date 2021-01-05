@@ -1,6 +1,7 @@
 import requests
 import os
 import sys
+import json
 
 def post(url, directory, login_token):
 
@@ -14,13 +15,12 @@ def post(url, directory, login_token):
 
     for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r', encoding="utf-8") as file:
-            text = file.read()
-            print(text)
-            
-            response = requests.post(url, data=text, headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json"}, timeout=60)
+
+            response = requests.post(url, json=json.load(file), headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json;charset=utf-8"}, timeout=60)
 
             if response.status_code != 201 :
-                print(os.path.splitext(filename)[0] + " => " + response.text)
+                print(os.path.splitext(filename)[0] + " => ")
+                print(json.dumps(json.loads(response.text), indent = 4))
             else:
                 print(os.path.splitext(filename)[0] + " got created")
 
