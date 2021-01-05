@@ -21,7 +21,7 @@ else
 fi
 popd
 
-./deploy_on_cluster.sh
+./deploy_on_cluster.sh $1
 
 python3 add_defaults.py admin admin $1
 

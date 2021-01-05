@@ -1,0 +1,8 @@
+export AUTHENTICATION_VERSION="latest"
+export CERTIFICATE_VERSION="latest"
+export CONFIGURATION_VERSION="latest"
+export COURSE_VERSION="latest"
+export MATRICULATION_VERSION="latest"
+export USER_VERSION="latest"
+export EXAMREG_VERSION="latest"
+export REPORT_VERSION="latest"
