@@ -11,7 +11,7 @@
       "isActive": true,
       "role": "Student",
       "address": {
-          "street": "Gaenseweg",
+          "street": "Gänseweg",
           "houseNumber": "42a",
           "zipCode": "13337",
           "city": "Entenhausen",
