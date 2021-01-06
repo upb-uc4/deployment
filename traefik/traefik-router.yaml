@@ -55,3 +55,9 @@ spec:
         - name: report
           namespace: uc4-lagom
           port: 80
+    - match: PathPrefix(`/dashboard`)
+      kind: Rule
+      services:
+        - name: kubernetes-dashboard
+          namespace: kubernetes-dashboard
+          port: 80
