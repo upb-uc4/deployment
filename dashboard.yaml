@@ -47,7 +47,7 @@ metadata:
 spec:
   ports:
     - port: 80
-      targetPort: 9080
+      targetPort: 8443
   selector:
     k8s-app: kubernetes-dashboard
 
