@@ -29,38 +29,19 @@ metadata:
 
 ---
 
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: admin-user
-  namespace: kubernetes-dashboard
-
----
 kind: Service
 apiVersion: v1
 metadata:
+  labels:
+    k8s-app: kubernetes-dashboard
   name: kubernetes-dashboard
   namespace: kubernetes-dashboard
-  labels:
-    k8s-app: kubernetes-dashboard
 spec:
+  ports:
+    - port: 80
+      targetPort: 9090
   selector:
     k8s-app: kubernetes-dashboard
-  ports:
-  - name: https
-    port: 443
-    targetPort: 8443
-
----
-
-apiVersion: v1
-kind: Secret
-metadata:
-  labels:
-    k8s-app: kubernetes-dashboard
-  name: kubernetes-dashboard-certs
-  namespace: kubernetes-dashboard
-type: Opaque
 
 ---
 
@@ -173,22 +154,6 @@ subjects:
     name: kubernetes-dashboard
     namespace: kubernetes-dashboard
 
-
----
-
-apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterRoleBinding
-metadata:
-  name: admin-user
-roleRef:
-  apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: cluster-admin
-subjects:
-- kind: ServiceAccount
-  name: admin-user
-  namespace: kubernetes-dashboard
-
 ---
 
 kind: Deployment
@@ -211,29 +176,25 @@ spec:
     spec:
       containers:
         - name: kubernetes-dashboard
-          image: kubernetesui/dashboard:v2.0.0
-          imagePullPolicy: Always
+          image: kubernetesui/dashboard:v2.0.1
           ports:
-            - containerPort: 8443
+            - containerPort: 9090
               protocol: TCP
           args:
-            - --auto-generate-certificates
             - --namespace=kubernetes-dashboard
-            # Uncomment the following line to manually specify Kubernetes API server Host
-            # If not specified, Dashboard will attempt to auto discover the API server and connect
-            # to it. Uncomment only if the default does not work.
-            # - --apiserver-host=http://my-address:port
+            - --enable-insecure-login
+          # Uncomment the following line to manually specify Kubernetes API server Host
+          # If not specified, Dashboard will attempt to auto discover the API server and connect
+          # to it. Uncomment only if the default does not work.
+          # - --apiserver-host=http://my-address:port
           volumeMounts:
-            - name: kubernetes-dashboard-certs
-              mountPath: /certs
-              # Create on-disk volume to store exec logs
+            # Create on-disk volume to store exec logs
             - mountPath: /tmp
               name: tmp-volume
           livenessProbe:
             httpGet:
-              scheme: HTTPS
               path: /
-              port: 8443
+              port: 9090
             initialDelaySeconds: 30
             timeoutSeconds: 30
           securityContext:
@@ -242,9 +203,6 @@ spec:
             runAsUser: 1001
             runAsGroup: 2001
       volumes:
-        - name: kubernetes-dashboard-certs
-          secret:
-            secretName: kubernetes-dashboard-certs
         - name: tmp-volume
           emptyDir: {}
       serviceAccountName: kubernetes-dashboard
