@@ -66,4 +66,4 @@ spec:
       services:
         - name: kubernetes-dashboard
           namespace: kubernetes-dashboard
-          port: 443
+          port: 80
