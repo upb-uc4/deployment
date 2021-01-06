@@ -47,10 +47,10 @@ spec:
   selector:
     k8s-app: kubernetes-dashboard
   ports:
-  - name: http
-    port: 80
+  - name: https
+    port: 443
     targetPort: 8443
-    
+
 ---
 
 apiVersion: v1
