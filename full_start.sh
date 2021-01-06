@@ -25,4 +25,12 @@ popd
 
 python3 add_defaults.py admin admin $1
 
+
+echo
+echo $HEADLINE
+echo "Dashboard Token"
+echo $HEADLINE
+
+kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+
 set +e
