@@ -36,20 +36,34 @@ metadata:
   namespace: kubernetes-dashboard
 
 ---
-
 kind: Service
 apiVersion: v1
 metadata:
+  name: kubernetes-dashboard
+  namespace: kube-system
   labels:
     k8s-app: kubernetes-dashboard
-  name: kubernetes-dashboard
-  namespace: kubernetes-dashboard
 spec:
-  ports:
-    - port: 80
-      targetPort: 8443
   selector:
     k8s-app: kubernetes-dashboard
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8443
+
+---
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: kubernetes-dashboard
+  namespace: kube-system
+  labels:
+    k8s-app: kubernetes-dashboard
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    traefik.ingress.kubernetes.io/frontend-entry-points: https # this is optional you can comment out
+    traefik.ingress.kubernetes.io/auth-type: "basic" # this is optional you can comment out
+    traefik.ingress.kubernetes.io/auth-secret: "kubernetes-dashboard-auth" # this is optional you can comment out
 
 ---
 
