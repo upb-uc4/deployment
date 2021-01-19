@@ -1,0 +1,52 @@
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name uc4.cs.uni-paderborn.de;
+
+        location / {
+                return 301 https://$host$request_uri;
+        }
+
+        location /github/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /api/production/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /api/develop/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /api/experimental/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /deploy/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /monitor/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /hooks/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /adminer/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /swagger/ {
+                return 301 https://$host$request_uri;
+        }
+
+        location /portainer/ {
+                return 301 https://$host$request_uri;
+        }
+}

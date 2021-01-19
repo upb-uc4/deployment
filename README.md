@@ -8,6 +8,14 @@ The current existing clusters are:
  - development
  - production
 
+## Deploy UC4-Website
+- 	In Portainer restart necessary containers (mariaDb needs to be on IP **.4)
+-	Start the internal apache2 server ``` /etc/init.d/apache2 start ```
+
+## Deploy Vue Frontend
+- 	In Portainer update Ui-web image from vue frontend container
+-	Redeploy Vue frontend container
+
 ## Start Cluster with Hyperledger and Lagom and Co
 The service versions are defined in `versions.sh`.  
 The position of the Hyperledger-Deploy-Script is defined in `env.sh`.
@@ -64,3 +72,6 @@ kubectl delete deployment {serviceName} -n uc4-lagom
 export {serviceName in caps}_VERSION={version}
 envsubst < services/{serviceName}.yaml | kubectl apply -f -
 ```
+
+## NGINX
+The nginx configuration used on our server are shown in the [nginx folder](nginx).
