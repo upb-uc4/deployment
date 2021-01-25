@@ -24,6 +24,7 @@ echo $HEADLINE
 kubectl create namespace uc4-support
 kubectl apply -f support/imaginary.yaml
 kubectl apply -f support/dashboard.yaml
+kubectl apply -f support/metrics.yaml
 
 echo
 echo $HEADLINE

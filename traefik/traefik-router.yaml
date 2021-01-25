@@ -61,6 +61,18 @@ spec:
         - name: admission
           namespace: uc4-lagom
           port: 80
+    - match: PathPrefix(`/group-management`)
+      kind: Rule
+      services:
+        - name: group
+          namespace: uc4-lagom
+          port: 80
+    - match: PathPrefix(`/operation-management`)
+      kind: Rule
+      services:
+        - name: operation
+          namespace: uc4-lagom
+          port: 80
     - match: PathPrefix(`/`)
       kind: Rule
       services:
