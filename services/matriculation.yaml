@@ -23,7 +23,7 @@ spec:
           
           env:
             - name: JAVA_OPTS
-              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf"
+              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf -Dlagom.akka.discovery.service-name-mappings.pdfprocessing.lookup=_http._tcp.pdfprocessing.uc4-support"
             - name: APPLICATION_SECRET
               valueFrom:
                 secretKeyRef:

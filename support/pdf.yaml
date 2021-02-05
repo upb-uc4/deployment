@@ -1,0 +1,45 @@
+apiVersion: "apps/v1"
+kind: Deployment
+metadata:
+  namespace: uc4-support
+  name: pdfprocessing
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: pdfprocessing
+
+  template:
+    metadata:
+      namespace: uc4-support
+      labels:
+        app: pdfprocessing
+    spec:
+      containers:
+        - name: pdfprocessing
+          image: kurzdigital/html-to-pdf:latest
+          imagePullPolicy: Always
+          resources:
+            limits:
+              memory: 512Mi
+            requests:
+              cpu: 0.25
+              memory: 512M
+          ports:
+            - name: management
+              containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: uc4-support
+  name: pdfprocessing
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+  selector:
+    app: pdfprocessing
+  type: LoadBalancer
