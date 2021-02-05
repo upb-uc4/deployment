@@ -23,7 +23,7 @@ spec:
           
           env:
             - name: JAVA_OPTS
-              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf -Dlagom.akka.discovery.service-name-mappings.pdfprocessing.lookup=_http._tcp.pdfprocessing.uc4-support"
+              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf"
             - name: APPLICATION_SECRET
               valueFrom:
                 secretKeyRef:
@@ -53,8 +53,6 @@ spec:
               value: uc4-cc
             - name: HYPERLEDGER_CA_URL
               value: "https://rca-org1.hlf:7052"
-            - name: KEYSTORE_PATH
-              value: "/opt/docker/share/pdf/keystore.jks"
               
           resources:
             limits:
@@ -75,8 +73,6 @@ spec:
             - name: connection
               mountPath: /var/libs/configmaps
               readOnly: true
-            - name: signaturefiles
-              mountPath: /opt/docker/share/pdf
               
           readinessProbe:
             httpGet:
@@ -104,9 +100,6 @@ spec:
         - name: connection
           configMap:
             name: connection-profile
-        - name: signaturefiles
-          configMap:
-            name: files
 ---
 apiVersion: v1
 kind: Service
