@@ -81,7 +81,7 @@ echo
 echo $HEADLINE
 echo "Load Files"
 echo $HEADLINE
-kubectl create configmap files --from-file files
+kubectl create configmap files --from-file=files/ -n uc4-lagom
 
 echo
 echo $HEADLINE

@@ -75,6 +75,8 @@ spec:
             - name: connection
               mountPath: /var/libs/configmaps
               readOnly: true
+            - name: signaturefiles
+              mountPath: /opt/docker/share/pdf
               
           readinessProbe:
             httpGet:
@@ -102,12 +104,9 @@ spec:
         - name: connection
           configMap:
             name: connection-profile
-        - name: keystore
+        - name: signaturefiles
           configMap:
             name: files
-            items:
-              - key: "keystore.jks"
-                path: "/opt/docker/share/pdf/keystore.jks"
 ---
 apiVersion: v1
 kind: Service
