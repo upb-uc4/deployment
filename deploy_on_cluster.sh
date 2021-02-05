@@ -79,6 +79,12 @@ kubectl apply -f rbac.yaml
 
 echo
 echo $HEADLINE
+echo "Load Files"
+echo $HEADLINE
+kubectl create configmap files --from-file files
+
+echo
+echo $HEADLINE
 echo "Starting Services"
 echo $HEADLINE
 
