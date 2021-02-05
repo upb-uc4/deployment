@@ -73,6 +73,18 @@ spec:
         - name: operation
           namespace: uc4-lagom
           port: 80
+    - match: PathPrefix(`/exam-management`)
+      kind: Rule
+      services:
+        - name: exam
+          namespace: uc4-lagom
+          port: 80
+    - match: PathPrefix(`/exam-result-management`)
+      kind: Rule
+      services:
+        - name: examresult
+          namespace: uc4-lagom
+          port: 80
     - match: PathPrefix(`/`)
       kind: Rule
       services:
