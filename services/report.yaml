@@ -22,7 +22,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: JAVA_OPTS
-              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf"
+              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf -Dlagom.akka.discovery.service-name-mappings.pdfprocessing.lookup=_http._tcp.pdfprocessing.uc4-support"
             - name: APPLICATION_SECRET
               valueFrom:
                 secretKeyRef:
@@ -54,6 +54,9 @@ spec:
               value: "_tcp-clients._tcp.strimzi-kafka-brokers.kafka"
             - name: REQUIRED_CONTACT_POINT_NR
               value: "2"
+            - name: KEYSTORE_PATH
+              value: "/opt/docker/share/pdf/keystore.jks"
+
           resources:
             limits:
               memory: 512Mi
@@ -63,6 +66,11 @@ spec:
           ports:
             - name: management
               containerPort: 8558
+
+          volumeMounts:
+            - name: signaturefiles
+              mountPath: /opt/docker/share/pdf
+
           readinessProbe:
             httpGet:
               path: "/ready"
@@ -77,6 +85,11 @@ spec:
             periodSeconds: 10
             failureThreshold: 10
             initialDelaySeconds: 20
+
+      volumes:
+        - name: signaturefiles
+          configMap:
+            name: files
 ---
 apiVersion: v1
 kind: Service

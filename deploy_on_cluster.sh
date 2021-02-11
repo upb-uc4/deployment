@@ -23,6 +23,7 @@ echo "Starting Support"
 echo $HEADLINE
 kubectl create namespace uc4-support
 kubectl apply -f support/imaginary.yaml
+kubectl apply -f support/pdf.yaml
 kubectl apply -f support/dashboard.yaml
 kubectl apply -f support/metrics.yaml
 
@@ -75,6 +76,12 @@ echo "Set RBAC"
 echo $HEADLINE
 kubectl create namespace uc4-lagom
 kubectl apply -f rbac.yaml
+
+echo
+echo $HEADLINE
+echo "Load Files"
+echo $HEADLINE
+kubectl create configmap files --from-file=files/ -n uc4-lagom
 
 echo
 echo $HEADLINE
