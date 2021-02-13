@@ -1,28 +1,28 @@
 {
-    "governmentId": "candace74MEDUfedzqPzhvJbqJnhD",
+    "governmentId": "essicarobertsonstXuiskOnyiSuJfTTmjP",
     "authUser": {
-        "username": "candace74",
-        "password": "candace74",
+        "username": "essicarobertson",
+        "password": "essicarobertson",
         "role": "Lecturer"
     },
     "user": {
-        "username": "candace74",
+        "username": "essicarobertson",
         "enrollmentIdSecret": "",
         "isActive": true,
         "role": "Lecturer",
         "address": {
-            "street": "Zachary Port",
-            "houseNumber": "4211",
-            "zipCode": "27584",
-            "city": "Cookmouth",
-            "country": "Kuwait"
+            "street": "Salazar Port",
+            "houseNumber": "3086",
+            "zipCode": "16987",
+            "city": "Allenfurt",
+            "country": "Belgium"
         },
-        "firstName": "Michael",
-        "lastName": "Cochran",
-        "email": "bennettcurtis@gmail.com",
-        "phoneNumber": "386-226-2251",
-        "birthDate": "01-27-1973"
-    },
-    "freeText": "Never author share phone. Step upon fact impact next.",
-    "researchArea": "Restaurant manager"
+        "firstName": "Carmen",
+        "lastName": "Baldwin",
+        "email": "sierralloyd@gmail.com",
+        "birthDate": "1922-02-01",
+        "phoneNumber": "+301906505258",
+        "freeText": "Together alone sister water manage recent choice suffer. Situation bad order successful article. Which behind significant us later.",
+        "researchArea": "Communications engineer"
+    }
 }

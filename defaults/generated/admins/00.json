@@ -1,12 +1,12 @@
 {
-    "governmentId": "rebeccawilliamsmPwfOnkrJMuxtIwfUYee",
+    "governmentId": "ebeccawilliamsmPwfOnkrJMuxtIwfUYee",
     "authUser": {
-        "username": "rebeccawilliams",
-        "password": "rebeccawilliams",
+        "username": "ebeccawilliams",
+        "password": "ebeccawilliams",
         "role": "Student"
     },
     "user": {
-        "username": "rebeccawilliams",
+        "username": "ebeccawilliams",
         "enrollmentIdSecret": "",
         "isActive": true,
         "role": "Student",
@@ -15,14 +15,14 @@
             "houseNumber": "41890",
             "zipCode": "52241",
             "city": "Matthewland",
-            "country": "Cocos (Keeling) Islands"
+            "country": "Germany"
         },
         "firstName": "Amy",
         "lastName": "Thompson",
         "email": "dawncharles@yahoo.com",
-        "phoneNumber": "001-841-198-7698x1290",
-        "birthDate": "06-11-1945"
-    },
-    "latestImmatriculation": "",
-    "matriculationId": "5721788"
+        "birthDate": "1945-06-11",
+        "phoneNumber": "+700901074289",
+        "latestImmatriculation": "",
+        "matriculationId": "5657431"
+    }
 }

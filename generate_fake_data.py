@@ -1,6 +1,7 @@
 import json
 import random
 import os
+import re
 
 from faker import Faker
 
@@ -9,11 +10,11 @@ from faker import Faker
 # Some settings:
 ################################################################################
 
-ADMIN_COUNT = 2
-STUDENT_COUNT = 40
-LECTURER_COUNT = 10
-EXAM_REG_COUNT = 10
-COURSE_COUNT = 20
+ADMIN_COUNT = 1
+STUDENT_COUNT = 1
+LECTURER_COUNT = 1
+EXAM_REG_COUNT = 1
+COURSE_COUNT = 1
 
 ROLES = ["Student", "Admin", "Lecturer"]
 FIELDS_OF_STUDY = [
@@ -32,7 +33,7 @@ MODULE_PREFICES = [
     "Experimental",
 ]
 COURSE_TYPES = ["Lecture", "Project Group", "Seminar"]
-
+COUNTRIES = ["Germany", "United States", "Italy", "France", "United Kingdom", "Belgium", "Netherlands", "Spain", "Austria", "Switzerland", "Poland"]
 fake = Faker("en-US")
 fake.random.seed(4321)
 
@@ -49,51 +50,57 @@ modules_by_field_of_study = {
 def generate_user(role: str):
     assert role in ROLES
 
+    strip_username = lambda username: re.sub("^[a-zA-Z-.]", "", username)
     profile = fake.simple_profile()
     while (
         len(profile["name"].split(" ")) != 2
-    ):  # Some names where like Mr. John Smith...
+        and len(strip_username(profile["username"])) not in range(5,17)
+    ):  # Some names were like Mr. John Smith...
         profile = fake.simple_profile()
 
+    username = strip_username(profile["username"])
+
     return {
-        "governmentId": profile["username"] + fake.pystr(),
+        "governmentId": username + fake.pystr(),
         "authUser": {
-            "username": profile["username"],
-            "password": profile["username"],  # more convenient than fake.password(),
+            "username": username,
+            "password": username,  # more convenient than fake.password(),
             "role": role,
         },
         "user": {
-            "username": profile["username"],
+            "username": username,
             "enrollmentIdSecret": "",
+            "isActive": True,
             "role": role,
             "address": {
                 "street": fake.street_name(),
                 "houseNumber": fake.building_number(),
                 "zipCode": fake.postcode(),
                 "city": fake.city(),
-                "country": fake.country(),
+                "country": random.choice(COUNTRIES)
             },
             "firstName": profile["name"].split(" ")[0],
             "lastName": profile["name"].split(" ")[1],
             "email": profile["mail"],
             "birthDate": profile["birthdate"].strftime("%Y-%m-%d"),
-            "phoneNumber": fake.phone_number(),
+            "phoneNumber": "+{:012d}".format(fake.pyint(0, int("9"*12))),
         },
     }
 
 
 def generate_student():
     student = generate_user("Student")
-    student["latestImmatriculation"] = ""
-    student["matriculationId"] = str(fake.pyint(1000000, 9999999))
+    student["user"]["latestImmatriculation"] = ""
+    student["user"]["matriculationId"] = str(fake.pyint(1000000, 9999999))
     return student
 
 
 def generate_lecturer(all_lecturer_ids: list):
     lecturer = generate_user("Lecturer")
-    lecturer["freeText"] = fake.paragraph()
-    lecturer["researchArea"] = fake.job()
+    lecturer["user"]["freeText"] = fake.paragraph()
+    lecturer["user"]["researchArea"] = fake.job()
     all_lecturer_ids.append(lecturer["user"]["username"])
+
     return lecturer
 
 

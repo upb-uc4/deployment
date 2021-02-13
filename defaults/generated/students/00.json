@@ -1,28 +1,28 @@
 {
-    "governmentId": "blloydUMxdUvTmHXpAUbOXzKiR",
+    "governmentId": "drakeGgclqfzualPGfefepMpP",
     "authUser": {
-        "username": "blloyd",
-        "password": "blloyd",
+        "username": "drake",
+        "password": "drake",
         "role": "Student"
     },
     "user": {
-        "username": "blloyd",
+        "username": "drake",
         "enrollmentIdSecret": "",
         "isActive": true,
         "role": "Student",
         "address": {
-            "street": "Kathryn Crescent",
-            "houseNumber": "7094",
-            "zipCode": "39825",
-            "city": "Lake Sarahview",
-            "country": "Colombia"
+            "street": "Edward Ridges",
+            "houseNumber": "712",
+            "zipCode": "75631",
+            "city": "Gregoryshire",
+            "country": "Spain"
         },
-        "firstName": "Tammy",
-        "lastName": "Powell",
-        "email": "lopezlaura@yahoo.com",
-        "phoneNumber": "707.022.4893",
-        "birthDate": "06-14-1988"
-    },
-    "latestImmatriculation": "",
-    "matriculationId": "2958719"
+        "firstName": "Russell",
+        "lastName": "Yang",
+        "email": "valerie46@hotmail.com",
+        "birthDate": "1908-05-09",
+        "phoneNumber": "+978309252400",
+        "latestImmatriculation": "",
+        "matriculationId": "9823993"
+    }
 }

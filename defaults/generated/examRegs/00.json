@@ -1,22 +1,18 @@
 {
-    "name": "Master Biology v7",
+    "name": "Master Computer Science v3",
     "active": true,
     "modules": [
         {
-            "id": "M.4866.42193",
-            "name": "Applied Biology"
+            "id": "M.4240.78843",
+            "name": "Topics of Computer Science"
         },
         {
-            "id": "M.2590.45681",
-            "name": "Theorotical Biology"
+            "id": "M.7951.01082",
+            "name": "Introduction to Computer Science"
         },
         {
-            "id": "M.7405.29952",
-            "name": "Experimental Biology"
-        },
-        {
-            "id": "M.2699.69632",
-            "name": "Applied Biology"
+            "id": "M.7410.00355",
+            "name": "Introduction to Computer Science"
         }
     ]
 }
