@@ -36,9 +36,9 @@ kubectl config use-context kind-{clusterName}
 ```
 
 ## Deploy Lagom with Postgres and Kafka
-This command deploys on the current cluster context.
+This command deploys on the current cluster context with the versions defined for the {clusterName}.
 ```bash
-./deploy_on_cluster.sh
+./deploy_on_cluster.sh {clusterName}
 ```
 
 ## Remove specific namespaces (and everything they contain)

@@ -2,44 +2,45 @@ apiVersion: "apps/v1"
 kind: Deployment
 metadata:
   namespace: uc4-lagom
-  name: report
+  name: operation
 spec:
   replicas: 2
 
   selector:
     matchLabels:
-      app: report
+      app: operation
 
   template:
     metadata:
       namespace: uc4-lagom
       labels:
-        app: report
+        app: operation
     spec:
       containers:
-        - name: report
-          image: "uc4official/report_service:$REPORT_VERSION"
+        - name: operation
+          image: "uc4official/operation_service:$OPERATION_VERSION"
           imagePullPolicy: Always
+          
           env:
             - name: JAVA_OPTS
-              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf -Dlagom.akka.discovery.service-name-mappings.pdfprocessing.lookup=_http._tcp.pdfprocessing.uc4-support"
+              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf"
             - name: APPLICATION_SECRET
               valueFrom:
                 secretKeyRef:
                   name: application-secret
                   key: secret
             - name: POSTGRESQL_URL
-              value: "jdbc:postgresql://postgres.postgres/uc4report"
+              value: "jdbc:postgresql://postgres.postgres/uc4operation"
             - name: POSTGRESQL_USERNAME
               valueFrom:
                 secretKeyRef:
-                  name: postgres-report
+                  name: postgres-operation
                   key: username
             - name: POSTGRESQL_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: postgres-report
-                  key: password
+                  name: postgres-operation
+                  key: password      
             - name: UC4_MASTER_SECRET
               valueFrom:
                 secretKeyRef:
@@ -54,23 +55,47 @@ spec:
               value: "_tcp-clients._tcp.strimzi-kafka-brokers.kafka"
             - name: REQUIRED_CONTACT_POINT_NR
               value: "2"
-            - name: KEYSTORE_PATH
-              value: "/opt/docker/share/pdf/keystore.jks"
-
+            - name: HYPERLEDGER_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: credentials.scala-admin-org1
+                  key: username
+            - name: HYPERLEDGER_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: credentials.scala-admin-org1
+                  key: password
+            - name: HYPERLEDGER_ORGANISATION_ID
+              value: org1MSP
+            - name: HYPERLEDGER_ORGANISATION_NAME
+              value: org1
+            - name: HYPERLEDGER_CHANNEL
+              value: mychannel
+            - name: HYPERLEDGER_CHAINCODE
+              value: uc4-cc
+            - name: HYPERLEDGER_CA_URL
+              value: "https://rca-org1.hlf:7052"
+              
           resources:
             limits:
               memory: 512Mi
             requests:
               cpu: 0.25
               memory: 512M
+              
           ports:
             - name: management
               containerPort: 8558
-
+              
           volumeMounts:
-            - name: signaturefiles
-              mountPath: /opt/docker/share/pdf
-
+            - name: cert
+              mountPath: /var/secrets
+            - name: certorg1
+              mountPath: /var/secrets/org
+            - name: connection
+              mountPath: /var/libs/configmaps
+              readOnly: true
+              
           readinessProbe:
             httpGet:
               path: "/ready"
@@ -78,6 +103,7 @@ spec:
             periodSeconds: 10
             failureThreshold: 10
             initialDelaySeconds: 20
+            
           livenessProbe:
             httpGet:
               path: "/alive"
@@ -85,22 +111,28 @@ spec:
             periodSeconds: 10
             failureThreshold: 10
             initialDelaySeconds: 20
-
+            
       volumes:
-        - name: signaturefiles
+        - name: cert
+          secret:
+            secretName: cert.tls-ca
+        - name: certorg1
+          secret:
+            secretName: cert.rca-org1
+        - name: connection
           configMap:
-            name: files
+            name: connection-profile
 ---
 apiVersion: v1
 kind: Service
 metadata:
   namespace: uc4-lagom
-  name: report
+  name: operation
 spec:
   ports:
     - name: http
       port: 80
       targetPort: 9000
   selector:
-    app: report
+    app: operation
   type: LoadBalancer
