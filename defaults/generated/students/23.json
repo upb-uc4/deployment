@@ -1,0 +1,28 @@
+{
+    "governmentId": "priceFedtECfovkJdActFlXVL",
+    "authUser": {
+        "username": "price",
+        "password": "price",
+        "role": "Student"
+    },
+    "user": {
+        "username": "price",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Ryan Stravenue",
+            "houseNumber": "9425",
+            "zipCode": "88706",
+            "city": "Davisbury",
+            "country": "Poland"
+        },
+        "firstName": "Francis",
+        "lastName": "Benson",
+        "email": "larryharding@yahoo.com",
+        "birthDate": "1996-03-17",
+        "phoneNumber": "+616919668125",
+        "latestImmatriculation": "",
+        "matriculationId": "2478491"
+    }
+}

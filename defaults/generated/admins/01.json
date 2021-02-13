@@ -1,0 +1,28 @@
+{
+    "governmentId": "ennifer60wXpdgBGvZBDzgYNALwHY",
+    "authUser": {
+        "username": "ennifer60",
+        "password": "ennifer60",
+        "role": "Student"
+    },
+    "user": {
+        "username": "ennifer60",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Karen Course",
+            "houseNumber": "1245",
+            "zipCode": "39387",
+            "city": "South Shawn",
+            "country": "Poland"
+        },
+        "firstName": "Michael",
+        "lastName": "Lopez",
+        "email": "saundersjason@yahoo.com",
+        "birthDate": "1924-01-06",
+        "phoneNumber": "+012169310271",
+        "latestImmatriculation": "",
+        "matriculationId": "1241887"
+    }
+}

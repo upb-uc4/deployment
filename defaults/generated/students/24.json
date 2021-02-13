@@ -1,0 +1,28 @@
+{
+    "governmentId": "errydaniellelhUNPEJXFAXLuklqjuHL",
+    "authUser": {
+        "username": "errydanielle",
+        "password": "errydanielle",
+        "role": "Student"
+    },
+    "user": {
+        "username": "errydanielle",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Rivera Lodge",
+            "houseNumber": "5638",
+            "zipCode": "83466",
+            "city": "Jacobmouth",
+            "country": "Germany"
+        },
+        "firstName": "Derrick",
+        "lastName": "Johnson",
+        "email": "usmith@yahoo.com",
+        "birthDate": "1979-05-09",
+        "phoneNumber": "+681170605709",
+        "latestImmatriculation": "",
+        "matriculationId": "3301701"
+    }
+}

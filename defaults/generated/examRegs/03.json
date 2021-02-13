@@ -1,0 +1,14 @@
+{
+    "name": "Master Sociology v6",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.8120.32477",
+            "name": "Theorotical Sociology"
+        },
+        {
+            "id": "M.4349.51836",
+            "name": "Introduction to Sociology"
+        }
+    ]
+}

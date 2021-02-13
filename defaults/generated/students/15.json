@@ -1,0 +1,28 @@
+{
+    "governmentId": "arah30XRJzdkhuouHimQLYXVKc",
+    "authUser": {
+        "username": "arah30",
+        "password": "arah30",
+        "role": "Student"
+    },
+    "user": {
+        "username": "arah30",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Mary Springs",
+            "houseNumber": "2283",
+            "zipCode": "00892",
+            "city": "South Shaunstad",
+            "country": "Austria"
+        },
+        "firstName": "Erica",
+        "lastName": "Guerrero",
+        "email": "ycook@yahoo.com",
+        "birthDate": "1951-09-20",
+        "phoneNumber": "+329620143974",
+        "latestImmatriculation": "",
+        "matriculationId": "5009415"
+    }
+}

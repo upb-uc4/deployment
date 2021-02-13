@@ -1,28 +1,28 @@
 {
-    "governmentId": "ebeccawilliamsmPwfOnkrJMuxtIwfUYee",
+    "governmentId": "amirezjenniferrCudpINDiGwXrAasCKgO",
     "authUser": {
-        "username": "ebeccawilliams",
-        "password": "ebeccawilliams",
+        "username": "amirezjennifer",
+        "password": "amirezjennifer",
         "role": "Student"
     },
     "user": {
-        "username": "ebeccawilliams",
+        "username": "amirezjennifer",
         "enrollmentIdSecret": "",
         "isActive": true,
         "role": "Student",
         "address": {
-            "street": "Sims Camp",
-            "houseNumber": "41890",
-            "zipCode": "52241",
-            "city": "Matthewland",
-            "country": "Germany"
+            "street": "Poole Walk",
+            "houseNumber": "6318",
+            "zipCode": "06240",
+            "city": "New Jessicatown",
+            "country": "United Kingdom"
         },
-        "firstName": "Amy",
-        "lastName": "Thompson",
-        "email": "dawncharles@yahoo.com",
-        "birthDate": "1945-06-11",
-        "phoneNumber": "+700901074289",
+        "firstName": "Theresa",
+        "lastName": "Richards",
+        "email": "ztyler@yahoo.com",
+        "birthDate": "1986-03-05",
+        "phoneNumber": "+178067399420",
         "latestImmatriculation": "",
-        "matriculationId": "5657431"
+        "matriculationId": "3205659"
     }
 }

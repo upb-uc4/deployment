@@ -1,0 +1,28 @@
+{
+    "governmentId": "regory20LFqBrmAydDxkhDgovkQO",
+    "authUser": {
+        "username": "regory20",
+        "password": "regory20",
+        "role": "Student"
+    },
+    "user": {
+        "username": "regory20",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Marie Knoll",
+            "houseNumber": "9824",
+            "zipCode": "23161",
+            "city": "Kristinview",
+            "country": "Italy"
+        },
+        "firstName": "Marc",
+        "lastName": "Ramos",
+        "email": "parkeremily@yahoo.com",
+        "birthDate": "1976-07-02",
+        "phoneNumber": "+476723122324",
+        "latestImmatriculation": "",
+        "matriculationId": "1330268"
+    }
+}

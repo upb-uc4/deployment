@@ -1,0 +1,28 @@
+{
+    "governmentId": "illerdanielnxfaanlsCNOJYvEqnybH",
+    "authUser": {
+        "username": "illerdaniel",
+        "password": "illerdaniel",
+        "role": "Student"
+    },
+    "user": {
+        "username": "illerdaniel",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Brian Parks",
+            "houseNumber": "328",
+            "zipCode": "44821",
+            "city": "West Gregg",
+            "country": "Belgium"
+        },
+        "firstName": "Matthew",
+        "lastName": "Mendoza",
+        "email": "cookbradley@hotmail.com",
+        "birthDate": "1952-04-19",
+        "phoneNumber": "+494040429021",
+        "latestImmatriculation": "",
+        "matriculationId": "6260561"
+    }
+}

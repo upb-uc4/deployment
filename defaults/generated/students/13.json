@@ -1,0 +1,28 @@
+{
+    "governmentId": "usangonzalesFdGzokJIrcTytNYnHtDd",
+    "authUser": {
+        "username": "usangonzales",
+        "password": "usangonzales",
+        "role": "Student"
+    },
+    "user": {
+        "username": "usangonzales",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Frye Mills",
+            "houseNumber": "3311",
+            "zipCode": "21857",
+            "city": "Edwardsmouth",
+            "country": "Poland"
+        },
+        "firstName": "Eric",
+        "lastName": "Herrera",
+        "email": "pattyhernandez@yahoo.com",
+        "birthDate": "1949-05-08",
+        "phoneNumber": "+338199276900",
+        "latestImmatriculation": "",
+        "matriculationId": "4988923"
+    }
+}

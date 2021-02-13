@@ -1,28 +1,28 @@
 {
-    "governmentId": "essicarobertsonstXuiskOnyiSuJfTTmjP",
+    "governmentId": "brownPfeHoYxGqBFSpyvteBsY",
     "authUser": {
-        "username": "essicarobertson",
-        "password": "essicarobertson",
+        "username": "brown",
+        "password": "brown",
         "role": "Lecturer"
     },
     "user": {
-        "username": "essicarobertson",
+        "username": "brown",
         "enrollmentIdSecret": "",
         "isActive": true,
         "role": "Lecturer",
         "address": {
-            "street": "Salazar Port",
-            "houseNumber": "3086",
-            "zipCode": "16987",
-            "city": "Allenfurt",
-            "country": "Belgium"
+            "street": "Jesse Orchard",
+            "houseNumber": "2488",
+            "zipCode": "01943",
+            "city": "North Catherine",
+            "country": "Germany"
         },
-        "firstName": "Carmen",
-        "lastName": "Baldwin",
-        "email": "sierralloyd@gmail.com",
-        "birthDate": "1922-02-01",
-        "phoneNumber": "+301906505258",
-        "freeText": "Together alone sister water manage recent choice suffer. Situation bad order successful article. Which behind significant us later.",
-        "researchArea": "Communications engineer"
+        "firstName": "Kelly",
+        "lastName": "Walker",
+        "email": "esmith@yahoo.com",
+        "birthDate": "1940-07-13",
+        "phoneNumber": "+512835112083",
+        "freeText": "Finally time reduce. Difference some citizen. Center show relationship high along.",
+        "researchArea": "Glass blower/designer"
     }
 }

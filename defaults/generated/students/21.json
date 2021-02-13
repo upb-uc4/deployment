@@ -1,0 +1,28 @@
+{
+    "governmentId": "maynardcnMBqsrkxxJKOVHNcGXS",
+    "authUser": {
+        "username": "maynard",
+        "password": "maynard",
+        "role": "Student"
+    },
+    "user": {
+        "username": "maynard",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Kimberly Ranch",
+            "houseNumber": "76404",
+            "zipCode": "55898",
+            "city": "Troyhaven",
+            "country": "Spain"
+        },
+        "firstName": "Kimberly",
+        "lastName": "Booth",
+        "email": "foxmelissa@hotmail.com",
+        "birthDate": "1941-05-19",
+        "phoneNumber": "+411705187715",
+        "latestImmatriculation": "",
+        "matriculationId": "6160074"
+    }
+}

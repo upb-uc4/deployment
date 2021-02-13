@@ -1,0 +1,14 @@
+{
+    "name": "Master Chemistry v2",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.4790.52486",
+            "name": "Topics of Chemistry"
+        },
+        {
+            "id": "M.5744.44829",
+            "name": "Introduction to Chemistry"
+        }
+    ]
+}

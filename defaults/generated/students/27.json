@@ -1,0 +1,28 @@
+{
+    "governmentId": "aurenmartinNyHhQfUerZqgaZraduQb",
+    "authUser": {
+        "username": "aurenmartin",
+        "password": "aurenmartin",
+        "role": "Student"
+    },
+    "user": {
+        "username": "aurenmartin",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Mann Lock",
+            "houseNumber": "3920",
+            "zipCode": "12443",
+            "city": "Hernandezberg",
+            "country": "Switzerland"
+        },
+        "firstName": "Catherine",
+        "lastName": "Gibson",
+        "email": "lisaharrison@yahoo.com",
+        "birthDate": "1965-09-10",
+        "phoneNumber": "+030667485435",
+        "latestImmatriculation": "",
+        "matriculationId": "2189246"
+    }
+}

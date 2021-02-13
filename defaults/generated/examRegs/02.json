@@ -1,0 +1,22 @@
+{
+    "name": "Bachelor Religion v3",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.9117.55793",
+            "name": "Topics of Religion"
+        },
+        {
+            "id": "M.3994.73954",
+            "name": "Theorotical Religion"
+        },
+        {
+            "id": "M.2067.08869",
+            "name": "Theorotical Religion"
+        },
+        {
+            "id": "M.2120.45989",
+            "name": "Introduction to Religion"
+        }
+    ]
+}

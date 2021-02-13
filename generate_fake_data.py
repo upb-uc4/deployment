@@ -10,11 +10,11 @@ from faker import Faker
 # Some settings:
 ################################################################################
 
-ADMIN_COUNT = 1
-STUDENT_COUNT = 1
-LECTURER_COUNT = 1
-EXAM_REG_COUNT = 1
-COURSE_COUNT = 1
+ADMIN_COUNT = 2
+STUDENT_COUNT = 40
+LECTURER_COUNT = 10
+EXAM_REG_COUNT = 6
+COURSE_COUNT = 10
 
 ROLES = ["Student", "Admin", "Lecturer"]
 FIELDS_OF_STUDY = [
@@ -35,7 +35,7 @@ MODULE_PREFICES = [
 COURSE_TYPES = ["Lecture", "Project Group", "Seminar"]
 COUNTRIES = ["Germany", "United States", "Italy", "France", "United Kingdom", "Belgium", "Netherlands", "Spain", "Austria", "Switzerland", "Poland"]
 fake = Faker("en-US")
-fake.random.seed(4321)
+fake.random.seed(654321)
 
 ################################################################################
 
@@ -74,7 +74,7 @@ def generate_user(role: str):
             "role": role,
             "address": {
                 "street": fake.street_name(),
-                "houseNumber": fake.building_number(),
+                "houseNumber": fake.building_number().lstrip("0"),
                 "zipCode": fake.postcode(),
                 "city": fake.city(),
                 "country": random.choice(COUNTRIES)

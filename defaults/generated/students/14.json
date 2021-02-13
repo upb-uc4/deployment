@@ -1,0 +1,28 @@
+{
+    "governmentId": "esleythompsonHYArbghKJuVymsetxjrT",
+    "authUser": {
+        "username": "esleythompson",
+        "password": "esleythompson",
+        "role": "Student"
+    },
+    "user": {
+        "username": "esleythompson",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Sandoval Trail",
+            "houseNumber": "7708",
+            "zipCode": "71192",
+            "city": "New Nancystad",
+            "country": "Austria"
+        },
+        "firstName": "Joshua",
+        "lastName": "Bishop",
+        "email": "monicawalker@yahoo.com",
+        "birthDate": "1913-09-06",
+        "phoneNumber": "+327952684177",
+        "latestImmatriculation": "",
+        "matriculationId": "7695052"
+    }
+}

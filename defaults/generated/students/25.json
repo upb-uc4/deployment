@@ -1,0 +1,28 @@
+{
+    "governmentId": "frostacXrmFTGVIEYxpQkBNbx",
+    "authUser": {
+        "username": "frost",
+        "password": "frost",
+        "role": "Student"
+    },
+    "user": {
+        "username": "frost",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Phillips Bridge",
+            "houseNumber": "354",
+            "zipCode": "07968",
+            "city": "Lake Jamiechester",
+            "country": "Spain"
+        },
+        "firstName": "Samantha",
+        "lastName": "Acosta",
+        "email": "bensonjerry@gmail.com",
+        "birthDate": "2017-10-07",
+        "phoneNumber": "+479323421401",
+        "latestImmatriculation": "",
+        "matriculationId": "4433695"
+    }
+}

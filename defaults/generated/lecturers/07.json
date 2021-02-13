@@ -1,0 +1,28 @@
+{
+    "governmentId": "risten36PNEEarfhJeHJxQndfxFN",
+    "authUser": {
+        "username": "risten36",
+        "password": "risten36",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "risten36",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Haley Islands",
+            "houseNumber": "316",
+            "zipCode": "66233",
+            "city": "Lake Tiffany",
+            "country": "Spain"
+        },
+        "firstName": "Jordan",
+        "lastName": "Hughes",
+        "email": "gcunningham@gmail.com",
+        "birthDate": "1955-11-17",
+        "phoneNumber": "+866053654552",
+        "freeText": "Ahead voice project measure. Reflect town mission show run identify see. Clearly simple listen can analysis. Two car speech entire.",
+        "researchArea": "Charity officer"
+    }
+}

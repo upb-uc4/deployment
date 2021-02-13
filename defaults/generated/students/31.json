@@ -1,0 +1,28 @@
+{
+    "governmentId": "atthew66haJYciNvZkAhyUItaBNS",
+    "authUser": {
+        "username": "atthew66",
+        "password": "atthew66",
+        "role": "Student"
+    },
+    "user": {
+        "username": "atthew66",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Gonzalez Trail",
+            "houseNumber": "4180",
+            "zipCode": "05609",
+            "city": "New Charlesberg",
+            "country": "Italy"
+        },
+        "firstName": "Laura",
+        "lastName": "Bishop",
+        "email": "angela59@yahoo.com",
+        "birthDate": "2000-12-06",
+        "phoneNumber": "+226804029671",
+        "latestImmatriculation": "",
+        "matriculationId": "4253164"
+    }
+}

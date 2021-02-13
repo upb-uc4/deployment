@@ -1,0 +1,28 @@
+{
+    "governmentId": "johnsonQLnSrrKfbWUMnNuMEqBc",
+    "authUser": {
+        "username": "johnson",
+        "password": "johnson",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "johnson",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Blake Glens",
+            "houseNumber": "54919",
+            "zipCode": "71095",
+            "city": "Lake Angelabury",
+            "country": "Poland"
+        },
+        "firstName": "Larry",
+        "lastName": "Warner",
+        "email": "rebeccaedwards@gmail.com",
+        "birthDate": "1979-02-25",
+        "phoneNumber": "+704625374048",
+        "freeText": "Film tree who wonder often. Leader central recognize build way special theory American. Scene interesting avoid senior participant.",
+        "researchArea": "Mudlogger"
+    }
+}

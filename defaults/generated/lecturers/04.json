@@ -1,0 +1,28 @@
+{
+    "governmentId": "eghan45VYtTMCatPTJZWORsOFXp",
+    "authUser": {
+        "username": "eghan45",
+        "password": "eghan45",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "eghan45",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Brown Forge",
+            "houseNumber": "26264",
+            "zipCode": "52473",
+            "city": "Dunnmouth",
+            "country": "United States"
+        },
+        "firstName": "Denise",
+        "lastName": "Jones",
+        "email": "zlong@gmail.com",
+        "birthDate": "1974-07-01",
+        "phoneNumber": "+075785671887",
+        "freeText": "Life morning because attention whole memory. Sea law result strong model next find. Door question stuff us. Single light to behind Congress.",
+        "researchArea": "Comptroller"
+    }
+}

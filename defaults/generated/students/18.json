@@ -1,0 +1,28 @@
+{
+    "governmentId": "lexandra66RHYXITQncffkRAYUWEsI",
+    "authUser": {
+        "username": "lexandra66",
+        "password": "lexandra66",
+        "role": "Student"
+    },
+    "user": {
+        "username": "lexandra66",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Sloan Ports",
+            "houseNumber": "1576",
+            "zipCode": "32850",
+            "city": "Jamesberg",
+            "country": "United Kingdom"
+        },
+        "firstName": "Craig",
+        "lastName": "Carlson",
+        "email": "cheyennehorne@hotmail.com",
+        "birthDate": "1968-08-19",
+        "phoneNumber": "+448785472766",
+        "latestImmatriculation": "",
+        "matriculationId": "8376451"
+    }
+}

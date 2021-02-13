@@ -1,0 +1,28 @@
+{
+    "governmentId": "frazierzQEZWtApfcxPREmhXChs",
+    "authUser": {
+        "username": "frazier",
+        "password": "frazier",
+        "role": "Student"
+    },
+    "user": {
+        "username": "frazier",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Skinner Corner",
+            "houseNumber": "1418",
+            "zipCode": "32643",
+            "city": "North Nathanmouth",
+            "country": "Netherlands"
+        },
+        "firstName": "Dorothy",
+        "lastName": "Rogers",
+        "email": "brittneybarrett@yahoo.com",
+        "birthDate": "1916-02-02",
+        "phoneNumber": "+918610503869",
+        "latestImmatriculation": "",
+        "matriculationId": "8218222"
+    }
+}

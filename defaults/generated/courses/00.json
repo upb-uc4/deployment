@@ -1,16 +1,17 @@
 {
     "courseId": "",
     "moduleIds": [
-        "M.4240.78843"
+        "M.4670.54258",
+        "M.9117.55793"
     ],
-    "courseName": "Up-sized discrete Local Area Network",
+    "courseName": "Cross-platform background knowledgebase",
     "courseType": "Lecture",
     "startDate": "2020-12-08",
     "endDate": "2020-12-08",
-    "ects": 8,
-    "lecturerId": "essicarobertson",
-    "maxParticipants": 190,
+    "ects": 5,
+    "lecturerId": "eghan45",
+    "maxParticipants": 20,
     "currentParticipants": 0,
-    "courseLanguage": "German",
-    "courseDescription": "Suddenly thing food whole."
+    "courseLanguage": "English",
+    "courseDescription": "Determine institution country nature coach pull central."
 }

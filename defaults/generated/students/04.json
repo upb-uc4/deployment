@@ -1,0 +1,28 @@
+{
+    "governmentId": "oylejonathaneDDgYOBJxXYMbYQnUYhq",
+    "authUser": {
+        "username": "oylejonathan",
+        "password": "oylejonathan",
+        "role": "Student"
+    },
+    "user": {
+        "username": "oylejonathan",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Jacob Glens",
+            "houseNumber": "9978",
+            "zipCode": "65142",
+            "city": "Blakebury",
+            "country": "Spain"
+        },
+        "firstName": "Greg",
+        "lastName": "Perez",
+        "email": "jasmine28@hotmail.com",
+        "birthDate": "1906-12-28",
+        "phoneNumber": "+444585467805",
+        "latestImmatriculation": "",
+        "matriculationId": "3744486"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "governmentId": "jonesriShyINhTfhpTZoFbVwV",
+    "authUser": {
+        "username": "jones",
+        "password": "jones",
+        "role": "Student"
+    },
+    "user": {
+        "username": "jones",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "West Roads",
+            "houseNumber": "18233",
+            "zipCode": "22758",
+            "city": "Lake Jamie",
+            "country": "United States"
+        },
+        "firstName": "Aaron",
+        "lastName": "Smith",
+        "email": "meyerjames@hotmail.com",
+        "birthDate": "1971-06-05",
+        "phoneNumber": "+694951574430",
+        "latestImmatriculation": "",
+        "matriculationId": "9116317"
+    }
+}

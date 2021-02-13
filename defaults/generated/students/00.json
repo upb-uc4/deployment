@@ -1,28 +1,28 @@
 {
-    "governmentId": "drakeGgclqfzualPGfefepMpP",
+    "governmentId": "hristopher92loAgAyJVWnVJNJfVOtBm",
     "authUser": {
-        "username": "drake",
-        "password": "drake",
+        "username": "hristopher92",
+        "password": "hristopher92",
         "role": "Student"
     },
     "user": {
-        "username": "drake",
+        "username": "hristopher92",
         "enrollmentIdSecret": "",
         "isActive": true,
         "role": "Student",
         "address": {
-            "street": "Edward Ridges",
-            "houseNumber": "712",
-            "zipCode": "75631",
-            "city": "Gregoryshire",
-            "country": "Spain"
+            "street": "Jacqueline Lodge",
+            "houseNumber": "2649",
+            "zipCode": "95286",
+            "city": "South Joseph",
+            "country": "United Kingdom"
         },
-        "firstName": "Russell",
-        "lastName": "Yang",
-        "email": "valerie46@hotmail.com",
-        "birthDate": "1908-05-09",
-        "phoneNumber": "+978309252400",
+        "firstName": "Nicholas",
+        "lastName": "Mckee",
+        "email": "ugrant@hotmail.com",
+        "birthDate": "1944-02-06",
+        "phoneNumber": "+416109466481",
         "latestImmatriculation": "",
-        "matriculationId": "9823993"
+        "matriculationId": "9462269"
     }
 }

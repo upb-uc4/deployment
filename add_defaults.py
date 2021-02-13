@@ -2,6 +2,7 @@ import requests
 import os
 import sys
 import json
+import time
 
 def post(url, directory, login_token):
 
@@ -42,5 +43,7 @@ post(url_prefix + "/course-management/courses", "course", token)
 post(url_prefix + "/user-management/users", os.path.join("generated", "admins"), token)
 post(url_prefix + "/user-management/users", os.path.join("generated", "students"), token)
 post(url_prefix + "/user-management/users", os.path.join("generated", "lecturers"), token)
+time.sleep(5)  # Wait to ensure the validation of the next queries is successful
 post(url_prefix + "/examreg-management/examination-regulations", os.path.join("generated", "examRegs"), token)
+time.sleep(5)
 post(url_prefix + "/course-management/courses", os.path.join("generated", "courses"), token)
