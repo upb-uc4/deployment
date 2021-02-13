@@ -1,1 +1,26 @@
-{"name": "Master Physics v1", "active": true, "modules": [{"id": "M.3435.39238", "name": "Topics of Physics"}, {"id": "M.0902.66156", "name": "Theorotical Physics"}]}
+{
+    "name": "Bachelor Chemistry v6",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.0289.16720",
+            "name": "Topics of Chemistry"
+        },
+        {
+            "id": "M.3435.39238",
+            "name": "Topics of Chemistry"
+        },
+        {
+            "id": "M.0902.66156",
+            "name": "Experimental Chemistry"
+        },
+        {
+            "id": "M.0060.55183",
+            "name": "Experimental Chemistry"
+        },
+        {
+            "id": "M.6029.90542",
+            "name": "Theorotical Chemistry"
+        }
+    ]
+}

@@ -1,1 +1,14 @@
-{"name": "Master Physics v3", "active": true, "modules": [{"id": "M.3279.90580", "name": "Introduction to Physics"}, {"id": "M.4881.29157", "name": "Applied Physics"}, {"id": "M.0609.91070", "name": "Theorotical Physics"}, {"id": "M.5499.03756", "name": "Theorotical Physics"}, {"id": "M.3623.02314", "name": "Introduction to Physics"}]}
+{
+    "name": "Master Computer Science v4",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.3644.04875",
+            "name": "Topics of Computer Science"
+        },
+        {
+            "id": "M.5499.03756",
+            "name": "Experimental Computer Science"
+        }
+    ]
+}

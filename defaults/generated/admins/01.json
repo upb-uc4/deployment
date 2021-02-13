@@ -1,1 +1,28 @@
-{"governmentId": "pennymurphyfepMpPwhKWKWeYRUJXOQ", "authUser": {"username": "pennymurphy", "password": "pennymurphy", "role": "Student"}, "user": {"username": "pennymurphy", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Nicole Drive", "houseNumber": "518", "zipCode": "13896", "city": "New Joshua", "country": "Algeria"}, "firstName": "Kimberly", "lastName": "Cunningham", "email": "lanekristin@gmail.com", "phoneNumber": "650.441.5620x995", "birthDate": "11-05-1925"}, "latestImmatriculation": "", "matriculationId": "7330525"}
+{
+    "governmentId": "pennymurphyfepMpPwhKWKWeYRUJXOQ",
+    "authUser": {
+        "username": "pennymurphy",
+        "password": "pennymurphy",
+        "role": "Student"
+    },
+    "user": {
+        "username": "pennymurphy",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Nicole Drive",
+            "houseNumber": "518",
+            "zipCode": "13896",
+            "city": "New Joshua",
+            "country": "Algeria"
+        },
+        "firstName": "Kimberly",
+        "lastName": "Cunningham",
+        "email": "lanekristin@gmail.com",
+        "phoneNumber": "650.441.5620x995",
+        "birthDate": "11-05-1925"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "7330525"
+}

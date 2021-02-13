@@ -1,1 +1,28 @@
-{"governmentId": "laurietorreskvmzCQBpeCkFfYSezcIx", "authUser": {"username": "laurietorres", "password": "laurietorres", "role": "Student"}, "user": {"username": "laurietorres", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Strickland Squares", "houseNumber": "7421", "zipCode": "78760", "city": "Powellfurt", "country": "Thailand"}, "firstName": "Monique", "lastName": "Paul", "email": "ryan45@yahoo.com", "phoneNumber": "+1-597-802-7970x197", "birthDate": "05-31-1954"}, "latestImmatriculation": "", "matriculationId": "7022269"}
+{
+    "governmentId": "laurietorreskvmzCQBpeCkFfYSezcIx",
+    "authUser": {
+        "username": "laurietorres",
+        "password": "laurietorres",
+        "role": "Student"
+    },
+    "user": {
+        "username": "laurietorres",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Strickland Squares",
+            "houseNumber": "7421",
+            "zipCode": "78760",
+            "city": "Powellfurt",
+            "country": "Thailand"
+        },
+        "firstName": "Monique",
+        "lastName": "Paul",
+        "email": "ryan45@yahoo.com",
+        "phoneNumber": "+1-597-802-7970x197",
+        "birthDate": "05-31-1954"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "7022269"
+}

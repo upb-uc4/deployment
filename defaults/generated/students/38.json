@@ -1,1 +1,28 @@
-{"governmentId": "zbrownliXmTaEILhfkCYFBRlos", "authUser": {"username": "zbrown", "password": "zbrown", "role": "Student"}, "user": {"username": "zbrown", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Patrick Garden", "houseNumber": "65363", "zipCode": "41558", "city": "East Lisastad", "country": "Mozambique"}, "firstName": "Daniel", "lastName": "Thornton", "email": "alexander21@gmail.com", "phoneNumber": "027-268-4623x9041", "birthDate": "04-30-2008"}, "latestImmatriculation": "", "matriculationId": "8418529"}
+{
+    "governmentId": "zbrownliXmTaEILhfkCYFBRlos",
+    "authUser": {
+        "username": "zbrown",
+        "password": "zbrown",
+        "role": "Student"
+    },
+    "user": {
+        "username": "zbrown",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Patrick Garden",
+            "houseNumber": "65363",
+            "zipCode": "41558",
+            "city": "East Lisastad",
+            "country": "Mozambique"
+        },
+        "firstName": "Daniel",
+        "lastName": "Thornton",
+        "email": "alexander21@gmail.com",
+        "phoneNumber": "027-268-4623x9041",
+        "birthDate": "04-30-2008"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "8418529"
+}

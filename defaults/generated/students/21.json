@@ -1,1 +1,28 @@
-{"governmentId": "michelle23JEqgzigqdPPqPqudTXXv", "authUser": {"username": "michelle23", "password": "michelle23", "role": "Student"}, "user": {"username": "michelle23", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Watson Rapids", "houseNumber": "0111", "zipCode": "30772", "city": "Alexandraside", "country": "Korea"}, "firstName": "Ashley", "lastName": "Martin", "email": "clinenathan@gmail.com", "phoneNumber": "001-376-287-9685x99832", "birthDate": "05-18-1980"}, "latestImmatriculation": "", "matriculationId": "7308145"}
+{
+    "governmentId": "michelle23JEqgzigqdPPqPqudTXXv",
+    "authUser": {
+        "username": "michelle23",
+        "password": "michelle23",
+        "role": "Student"
+    },
+    "user": {
+        "username": "michelle23",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Watson Rapids",
+            "houseNumber": "0111",
+            "zipCode": "30772",
+            "city": "Alexandraside",
+            "country": "Korea"
+        },
+        "firstName": "Ashley",
+        "lastName": "Martin",
+        "email": "clinenathan@gmail.com",
+        "phoneNumber": "001-376-287-9685x99832",
+        "birthDate": "05-18-1980"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "7308145"
+}

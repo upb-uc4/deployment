@@ -1,1 +1,28 @@
-{"governmentId": "blloydUMxdUvTmHXpAUbOXzKiR", "authUser": {"username": "blloyd", "password": "blloyd", "role": "Student"}, "user": {"username": "blloyd", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Kathryn Crescent", "houseNumber": "7094", "zipCode": "39825", "city": "Lake Sarahview", "country": "Colombia"}, "firstName": "Tammy", "lastName": "Powell", "email": "lopezlaura@yahoo.com", "phoneNumber": "707.022.4893", "birthDate": "06-14-1988"}, "latestImmatriculation": "", "matriculationId": "2958719"}
+{
+    "governmentId": "blloydUMxdUvTmHXpAUbOXzKiR",
+    "authUser": {
+        "username": "blloyd",
+        "password": "blloyd",
+        "role": "Student"
+    },
+    "user": {
+        "username": "blloyd",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Kathryn Crescent",
+            "houseNumber": "7094",
+            "zipCode": "39825",
+            "city": "Lake Sarahview",
+            "country": "Colombia"
+        },
+        "firstName": "Tammy",
+        "lastName": "Powell",
+        "email": "lopezlaura@yahoo.com",
+        "phoneNumber": "707.022.4893",
+        "birthDate": "06-14-1988"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "2958719"
+}

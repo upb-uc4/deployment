@@ -1,1 +1,28 @@
-{"governmentId": "williamsjosephFCuftDlTCyZvTwoHliTW", "authUser": {"username": "williamsjoseph", "password": "williamsjoseph", "role": "Student"}, "user": {"username": "williamsjoseph", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Andrew Streets", "houseNumber": "79492", "zipCode": "41391", "city": "New Aprilshire", "country": "Jamaica"}, "firstName": "Mariah", "lastName": "Henson", "email": "brianna64@gmail.com", "phoneNumber": "931-743-4603x608", "birthDate": "04-07-1932"}, "latestImmatriculation": "", "matriculationId": "8962569"}
+{
+    "governmentId": "williamsjosephFCuftDlTCyZvTwoHliTW",
+    "authUser": {
+        "username": "williamsjoseph",
+        "password": "williamsjoseph",
+        "role": "Student"
+    },
+    "user": {
+        "username": "williamsjoseph",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Andrew Streets",
+            "houseNumber": "79492",
+            "zipCode": "41391",
+            "city": "New Aprilshire",
+            "country": "Jamaica"
+        },
+        "firstName": "Mariah",
+        "lastName": "Henson",
+        "email": "brianna64@gmail.com",
+        "phoneNumber": "931-743-4603x608",
+        "birthDate": "04-07-1932"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "8962569"
+}

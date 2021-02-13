@@ -1,1 +1,28 @@
-{"governmentId": "kevin85LgqGcDRzbQxzisBuMtWt", "authUser": {"username": "kevin85", "password": "kevin85", "role": "Student"}, "user": {"username": "kevin85", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Glenn Shoal", "houseNumber": "850", "zipCode": "81446", "city": "Latoyamouth", "country": "Grenada"}, "firstName": "Gary", "lastName": "Duke", "email": "david86@hotmail.com", "phoneNumber": "168-883-8365x0799", "birthDate": "02-20-1973"}, "latestImmatriculation": "", "matriculationId": "5922759"}
+{
+    "governmentId": "kevin85LgqGcDRzbQxzisBuMtWt",
+    "authUser": {
+        "username": "kevin85",
+        "password": "kevin85",
+        "role": "Student"
+    },
+    "user": {
+        "username": "kevin85",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Glenn Shoal",
+            "houseNumber": "850",
+            "zipCode": "81446",
+            "city": "Latoyamouth",
+            "country": "Grenada"
+        },
+        "firstName": "Gary",
+        "lastName": "Duke",
+        "email": "david86@hotmail.com",
+        "phoneNumber": "168-883-8365x0799",
+        "birthDate": "02-20-1973"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "5922759"
+}

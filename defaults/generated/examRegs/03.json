@@ -1,1 +1,22 @@
-{"name": "Bachelor Physics v6", "active": true, "modules": [{"id": "M.6894.77037", "name": "Introduction to Physics"}, {"id": "M.7783.66149", "name": "Applied Physics"}]}
+{
+    "name": "Master Chemistry v5",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.9629.89839",
+            "name": "Theorotical Chemistry"
+        },
+        {
+            "id": "M.7783.66149",
+            "name": "Introduction to Chemistry"
+        },
+        {
+            "id": "M.6096.10366",
+            "name": "Topics of Chemistry"
+        },
+        {
+            "id": "M.4556.96878",
+            "name": "Applied Chemistry"
+        }
+    ]
+}

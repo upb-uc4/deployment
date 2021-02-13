@@ -1,1 +1,28 @@
-{"governmentId": "markwardOchfQOrWVrQVDDphoxpE", "authUser": {"username": "markward", "password": "markward", "role": "Lecturer"}, "user": {"username": "markward", "enrollmentIdSecret": "", "isActive": true, "role": "Lecturer", "address": {"street": "Miller Pines", "houseNumber": "30992", "zipCode": "67510", "city": "South Daniel", "country": "Isle of Man"}, "firstName": "Jennifer", "lastName": "Johnson", "email": "ericbush@hotmail.com", "phoneNumber": "(301)591-2321x9294", "birthDate": "02-19-1917"}, "freeText": "Environment also control. Country week oil structure.", "researchArea": "Psychotherapist, dance movement"}
+{
+    "governmentId": "markwardOchfQOrWVrQVDDphoxpE",
+    "authUser": {
+        "username": "markward",
+        "password": "markward",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "markward",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Miller Pines",
+            "houseNumber": "30992",
+            "zipCode": "67510",
+            "city": "South Daniel",
+            "country": "Isle of Man"
+        },
+        "firstName": "Jennifer",
+        "lastName": "Johnson",
+        "email": "ericbush@hotmail.com",
+        "phoneNumber": "(301)591-2321x9294",
+        "birthDate": "02-19-1917"
+    },
+    "freeText": "Environment also control. Country week oil structure.",
+    "researchArea": "Psychotherapist, dance movement"
+}

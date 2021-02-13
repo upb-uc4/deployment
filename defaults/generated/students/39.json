@@ -1,1 +1,28 @@
-{"governmentId": "frank84hUIdOpmTTxvKVwjHHZid", "authUser": {"username": "frank84", "password": "frank84", "role": "Student"}, "user": {"username": "frank84", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Denise Crest", "houseNumber": "33833", "zipCode": "91180", "city": "Port Tinaberg", "country": "Tunisia"}, "firstName": "Michael", "lastName": "Pugh", "email": "houstoncharles@gmail.com", "phoneNumber": "001-437-688-4136x985", "birthDate": "02-02-2004"}, "latestImmatriculation": "", "matriculationId": "1128161"}
+{
+    "governmentId": "frank84hUIdOpmTTxvKVwjHHZid",
+    "authUser": {
+        "username": "frank84",
+        "password": "frank84",
+        "role": "Student"
+    },
+    "user": {
+        "username": "frank84",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Denise Crest",
+            "houseNumber": "33833",
+            "zipCode": "91180",
+            "city": "Port Tinaberg",
+            "country": "Tunisia"
+        },
+        "firstName": "Michael",
+        "lastName": "Pugh",
+        "email": "houstoncharles@gmail.com",
+        "phoneNumber": "001-437-688-4136x985",
+        "birthDate": "02-02-2004"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "1128161"
+}

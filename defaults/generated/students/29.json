@@ -1,1 +1,28 @@
-{"governmentId": "ubennettDBhKaZFeMsODJqseYZav", "authUser": {"username": "ubennett", "password": "ubennett", "role": "Student"}, "user": {"username": "ubennett", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Dorothy Estates", "houseNumber": "4515", "zipCode": "13157", "city": "South Maryborough", "country": "Hong Kong"}, "firstName": "Travis", "lastName": "Steele", "email": "baileyaaron@gmail.com", "phoneNumber": "394-613-8214", "birthDate": "11-30-2000"}, "latestImmatriculation": "", "matriculationId": "5949698"}
+{
+    "governmentId": "ubennettDBhKaZFeMsODJqseYZav",
+    "authUser": {
+        "username": "ubennett",
+        "password": "ubennett",
+        "role": "Student"
+    },
+    "user": {
+        "username": "ubennett",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Dorothy Estates",
+            "houseNumber": "4515",
+            "zipCode": "13157",
+            "city": "South Maryborough",
+            "country": "Hong Kong"
+        },
+        "firstName": "Travis",
+        "lastName": "Steele",
+        "email": "baileyaaron@gmail.com",
+        "phoneNumber": "394-613-8214",
+        "birthDate": "11-30-2000"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "5949698"
+}

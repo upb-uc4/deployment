@@ -1,1 +1,18 @@
-{"name": "Bachelor Sociology v6", "active": true, "modules": [{"id": "M.7810.69130", "name": "Experimental Sociology"}, {"id": "M.4146.90858", "name": "Experimental Sociology"}]}
+{
+    "name": "Bachelor Physics v7",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.7810.69130",
+            "name": "Introduction to Physics"
+        },
+        {
+            "id": "M.4146.90858",
+            "name": "Theorotical Physics"
+        },
+        {
+            "id": "M.8984.44028",
+            "name": "Topics of Physics"
+        }
+    ]
+}

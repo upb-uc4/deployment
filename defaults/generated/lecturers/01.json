@@ -1,1 +1,28 @@
-{"governmentId": "veronica47JbNBktSzSIwgZKbMgBUS", "authUser": {"username": "veronica47", "password": "veronica47", "role": "Lecturer"}, "user": {"username": "veronica47", "enrollmentIdSecret": "", "isActive": true, "role": "Lecturer", "address": {"street": "Morales Knolls", "houseNumber": "147", "zipCode": "47440", "city": "South Tiffany", "country": "Guyana"}, "firstName": "Hailey", "lastName": "Singh", "email": "millersharon@gmail.com", "phoneNumber": "623.023.4738", "birthDate": "10-07-2007"}, "freeText": "Student area may interesting rather. Occur probably although glass program.", "researchArea": "Theatre manager"}
+{
+    "governmentId": "veronica47JbNBktSzSIwgZKbMgBUS",
+    "authUser": {
+        "username": "veronica47",
+        "password": "veronica47",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "veronica47",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Morales Knolls",
+            "houseNumber": "147",
+            "zipCode": "47440",
+            "city": "South Tiffany",
+            "country": "Guyana"
+        },
+        "firstName": "Hailey",
+        "lastName": "Singh",
+        "email": "millersharon@gmail.com",
+        "phoneNumber": "623.023.4738",
+        "birthDate": "10-07-2007"
+    },
+    "freeText": "Student area may interesting rather. Occur probably although glass program.",
+    "researchArea": "Theatre manager"
+}

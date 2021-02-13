@@ -1,1 +1,28 @@
-{"governmentId": "riveraseangxjRJlqHcoLiNesbnIXj", "authUser": {"username": "riverasean", "password": "riverasean", "role": "Student"}, "user": {"username": "riverasean", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Allen Track", "houseNumber": "4121", "zipCode": "93847", "city": "Tonyton", "country": "Uganda"}, "firstName": "Fred", "lastName": "Sanford", "email": "scottkelly@yahoo.com", "phoneNumber": "913-313-4950x96412", "birthDate": "01-14-1943"}, "latestImmatriculation": "", "matriculationId": "3514536"}
+{
+    "governmentId": "riveraseangxjRJlqHcoLiNesbnIXj",
+    "authUser": {
+        "username": "riverasean",
+        "password": "riverasean",
+        "role": "Student"
+    },
+    "user": {
+        "username": "riverasean",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Allen Track",
+            "houseNumber": "4121",
+            "zipCode": "93847",
+            "city": "Tonyton",
+            "country": "Uganda"
+        },
+        "firstName": "Fred",
+        "lastName": "Sanford",
+        "email": "scottkelly@yahoo.com",
+        "phoneNumber": "913-313-4950x96412",
+        "birthDate": "01-14-1943"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "3514536"
+}

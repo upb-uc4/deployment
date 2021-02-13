@@ -1,1 +1,28 @@
-{"governmentId": "gdaviesjBJnplsyyZikQHqduBeY", "authUser": {"username": "gdavies", "password": "gdavies", "role": "Student"}, "user": {"username": "gdavies", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Christopher Creek", "houseNumber": "1814", "zipCode": "40590", "city": "Kimberlyburgh", "country": "Trinidad and Tobago"}, "firstName": "Keith", "lastName": "Ball", "email": "edward64@yahoo.com", "phoneNumber": "422.866.9580x300", "birthDate": "11-20-1922"}, "latestImmatriculation": "", "matriculationId": "6197733"}
+{
+    "governmentId": "gdaviesjBJnplsyyZikQHqduBeY",
+    "authUser": {
+        "username": "gdavies",
+        "password": "gdavies",
+        "role": "Student"
+    },
+    "user": {
+        "username": "gdavies",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Christopher Creek",
+            "houseNumber": "1814",
+            "zipCode": "40590",
+            "city": "Kimberlyburgh",
+            "country": "Trinidad and Tobago"
+        },
+        "firstName": "Keith",
+        "lastName": "Ball",
+        "email": "edward64@yahoo.com",
+        "phoneNumber": "422.866.9580x300",
+        "birthDate": "11-20-1922"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "6197733"
+}

@@ -1,1 +1,28 @@
-{"governmentId": "pughpatriciaLCDimXjuUkwlDDLYmUzC", "authUser": {"username": "pughpatricia", "password": "pughpatricia", "role": "Lecturer"}, "user": {"username": "pughpatricia", "enrollmentIdSecret": "", "isActive": true, "role": "Lecturer", "address": {"street": "Jackson Plains", "houseNumber": "514", "zipCode": "39305", "city": "Maryton", "country": "Afghanistan"}, "firstName": "Audrey", "lastName": "Dixon", "email": "brandon67@yahoo.com", "phoneNumber": "(493)134-7527", "birthDate": "11-15-2003"}, "freeText": "Sure weight happen under dream capital seat. Property million music family unit help word prevent.", "researchArea": "Learning mentor"}
+{
+    "governmentId": "pughpatriciaLCDimXjuUkwlDDLYmUzC",
+    "authUser": {
+        "username": "pughpatricia",
+        "password": "pughpatricia",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "pughpatricia",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Jackson Plains",
+            "houseNumber": "514",
+            "zipCode": "39305",
+            "city": "Maryton",
+            "country": "Afghanistan"
+        },
+        "firstName": "Audrey",
+        "lastName": "Dixon",
+        "email": "brandon67@yahoo.com",
+        "phoneNumber": "(493)134-7527",
+        "birthDate": "11-15-2003"
+    },
+    "freeText": "Sure weight happen under dream capital seat. Property million music family unit help word prevent.",
+    "researchArea": "Learning mentor"
+}

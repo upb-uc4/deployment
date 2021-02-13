@@ -1,1 +1,28 @@
-{"governmentId": "zcollinsBHXfGfrnaaQvVmLmvNIz", "authUser": {"username": "zcollins", "password": "zcollins", "role": "Student"}, "user": {"username": "zcollins", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Ortiz Shoals", "houseNumber": "33864", "zipCode": "28397", "city": "Calderonton", "country": "Saint Martin"}, "firstName": "Jimmy", "lastName": "Hull", "email": "taylor46@yahoo.com", "phoneNumber": "727-015-0932", "birthDate": "06-19-1988"}, "latestImmatriculation": "", "matriculationId": "8012788"}
+{
+    "governmentId": "zcollinsBHXfGfrnaaQvVmLmvNIz",
+    "authUser": {
+        "username": "zcollins",
+        "password": "zcollins",
+        "role": "Student"
+    },
+    "user": {
+        "username": "zcollins",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Ortiz Shoals",
+            "houseNumber": "33864",
+            "zipCode": "28397",
+            "city": "Calderonton",
+            "country": "Saint Martin"
+        },
+        "firstName": "Jimmy",
+        "lastName": "Hull",
+        "email": "taylor46@yahoo.com",
+        "phoneNumber": "727-015-0932",
+        "birthDate": "06-19-1988"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "8012788"
+}

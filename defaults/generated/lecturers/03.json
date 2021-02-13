@@ -1,1 +1,28 @@
-{"governmentId": "rhondaloweryTOQGCKGQWqjRnAGnTGCo", "authUser": {"username": "rhondalowery", "password": "rhondalowery", "role": "Lecturer"}, "user": {"username": "rhondalowery", "enrollmentIdSecret": "", "isActive": true, "role": "Lecturer", "address": {"street": "Lewis Port", "houseNumber": "24713", "zipCode": "93821", "city": "Walkerchester", "country": "Portugal"}, "firstName": "Hannah", "lastName": "Hunter", "email": "kramirez@yahoo.com", "phoneNumber": "528.801.0240", "birthDate": "11-18-2009"}, "freeText": "Brother enter difference history bill give level store. Role hear including. Respond they condition modern chance.", "researchArea": "Museum/gallery curator"}
+{
+    "governmentId": "rhondaloweryTOQGCKGQWqjRnAGnTGCo",
+    "authUser": {
+        "username": "rhondalowery",
+        "password": "rhondalowery",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "rhondalowery",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Lewis Port",
+            "houseNumber": "24713",
+            "zipCode": "93821",
+            "city": "Walkerchester",
+            "country": "Portugal"
+        },
+        "firstName": "Hannah",
+        "lastName": "Hunter",
+        "email": "kramirez@yahoo.com",
+        "phoneNumber": "528.801.0240",
+        "birthDate": "11-18-2009"
+    },
+    "freeText": "Brother enter difference history bill give level store. Role hear including. Respond they condition modern chance.",
+    "researchArea": "Museum/gallery curator"
+}

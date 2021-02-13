@@ -1,1 +1,28 @@
-{"governmentId": "candace74MEDUfedzqPzhvJbqJnhD", "authUser": {"username": "candace74", "password": "candace74", "role": "Lecturer"}, "user": {"username": "candace74", "enrollmentIdSecret": "", "isActive": true, "role": "Lecturer", "address": {"street": "Zachary Port", "houseNumber": "4211", "zipCode": "27584", "city": "Cookmouth", "country": "Kuwait"}, "firstName": "Michael", "lastName": "Cochran", "email": "bennettcurtis@gmail.com", "phoneNumber": "386-226-2251", "birthDate": "01-27-1973"}, "freeText": "Never author share phone. Step upon fact impact next.", "researchArea": "Restaurant manager"}
+{
+    "governmentId": "candace74MEDUfedzqPzhvJbqJnhD",
+    "authUser": {
+        "username": "candace74",
+        "password": "candace74",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "candace74",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Zachary Port",
+            "houseNumber": "4211",
+            "zipCode": "27584",
+            "city": "Cookmouth",
+            "country": "Kuwait"
+        },
+        "firstName": "Michael",
+        "lastName": "Cochran",
+        "email": "bennettcurtis@gmail.com",
+        "phoneNumber": "386-226-2251",
+        "birthDate": "01-27-1973"
+    },
+    "freeText": "Never author share phone. Step upon fact impact next.",
+    "researchArea": "Restaurant manager"
+}

@@ -1,1 +1,28 @@
-{"governmentId": "kimberly86KqWxySbcntNFZLqvesWd", "authUser": {"username": "kimberly86", "password": "kimberly86", "role": "Student"}, "user": {"username": "kimberly86", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Aaron Trafficway", "houseNumber": "1698", "zipCode": "16141", "city": "Rothfort", "country": "India"}, "firstName": "Jose", "lastName": "Rose", "email": "alexandrahill@yahoo.com", "phoneNumber": "234.554.4622", "birthDate": "04-30-1979"}, "latestImmatriculation": "", "matriculationId": "9242380"}
+{
+    "governmentId": "kimberly86KqWxySbcntNFZLqvesWd",
+    "authUser": {
+        "username": "kimberly86",
+        "password": "kimberly86",
+        "role": "Student"
+    },
+    "user": {
+        "username": "kimberly86",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Aaron Trafficway",
+            "houseNumber": "1698",
+            "zipCode": "16141",
+            "city": "Rothfort",
+            "country": "India"
+        },
+        "firstName": "Jose",
+        "lastName": "Rose",
+        "email": "alexandrahill@yahoo.com",
+        "phoneNumber": "234.554.4622",
+        "birthDate": "04-30-1979"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "9242380"
+}

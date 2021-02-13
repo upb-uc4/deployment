@@ -1,1 +1,28 @@
-{"governmentId": "jhamptonPnMISiBfFNzKnPowHorS", "authUser": {"username": "jhampton", "password": "jhampton", "role": "Student"}, "user": {"username": "jhampton", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Andrea Field", "houseNumber": "2278", "zipCode": "13005", "city": "Joseport", "country": "Equatorial Guinea"}, "firstName": "Andrea", "lastName": "James", "email": "bergjennifer@yahoo.com", "phoneNumber": "258-396-5099", "birthDate": "07-24-2002"}, "latestImmatriculation": "", "matriculationId": "7848033"}
+{
+    "governmentId": "jhamptonPnMISiBfFNzKnPowHorS",
+    "authUser": {
+        "username": "jhampton",
+        "password": "jhampton",
+        "role": "Student"
+    },
+    "user": {
+        "username": "jhampton",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Andrea Field",
+            "houseNumber": "2278",
+            "zipCode": "13005",
+            "city": "Joseport",
+            "country": "Equatorial Guinea"
+        },
+        "firstName": "Andrea",
+        "lastName": "James",
+        "email": "bergjennifer@yahoo.com",
+        "phoneNumber": "258-396-5099",
+        "birthDate": "07-24-2002"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "7848033"
+}

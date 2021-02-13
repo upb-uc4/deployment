@@ -138,21 +138,23 @@ def write_to_file(data, _dir, filename):
     with open(os.path.join(directory, filename), "w+") as f:
         f.write(data)
 
+def json_dump_dict(data: dict):
+    return json.dumps(data, indent=4)
 
 for i in range(ADMIN_COUNT):
-    write_to_file(json.dumps(generate_student()), "admins", str(i).zfill(2) + ".json")
+    write_to_file(json_dump_dict(generate_student()), "admins", str(i).zfill(2) + ".json")
 
 for i in range(STUDENT_COUNT):
-    write_to_file(json.dumps(generate_student()), "students", str(i).zfill(2) + ".json")
+    write_to_file(json_dump_dict(generate_student()), "students", str(i).zfill(2) + ".json")
 
 for i in range(LECTURER_COUNT):
-    write_to_file(json.dumps(generate_lecturer(lecturer_ids)), "lecturers", str(i).zfill(2) + ".json")
+    write_to_file(json_dump_dict(generate_lecturer(lecturer_ids)), "lecturers", str(i).zfill(2) + ".json")
 
 for i in range(EXAM_REG_COUNT):
-    write_to_file(json.dumps(generate_exam_reg(modules_by_field_of_study)), "examRegs", str(i).zfill(2) + ".json")
+    write_to_file(json_dump_dict(generate_exam_reg(modules_by_field_of_study)), "examRegs", str(i).zfill(2) + ".json")
 
 for i in range(COURSE_COUNT):
-    write_to_file(json.dumps(generate_course()), "courses", str(i).zfill(2) + ".json")
+    write_to_file(json_dump_dict(generate_course()), "courses", str(i).zfill(2) + ".json")
 
 print("Done! 😎")
 print("Generated: {} Admins, {} Students, {} Lecturers, {} Exam Regs and {} Courses".format(ADMIN_COUNT, STUDENT_COUNT, LECTURER_COUNT, EXAM_REG_COUNT, COURSE_COUNT))

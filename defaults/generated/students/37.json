@@ -1,1 +1,28 @@
-{"governmentId": "sue40DivbJQizEgJdkxPUEAZR", "authUser": {"username": "sue40", "password": "sue40", "role": "Student"}, "user": {"username": "sue40", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Nicole Spurs", "houseNumber": "6949", "zipCode": "75112", "city": "New Jeff", "country": "Cuba"}, "firstName": "Brendan", "lastName": "Rogers", "email": "leahbradford@yahoo.com", "phoneNumber": "213-233-3639x530", "birthDate": "03-09-1996"}, "latestImmatriculation": "", "matriculationId": "7524750"}
+{
+    "governmentId": "sue40DivbJQizEgJdkxPUEAZR",
+    "authUser": {
+        "username": "sue40",
+        "password": "sue40",
+        "role": "Student"
+    },
+    "user": {
+        "username": "sue40",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Nicole Spurs",
+            "houseNumber": "6949",
+            "zipCode": "75112",
+            "city": "New Jeff",
+            "country": "Cuba"
+        },
+        "firstName": "Brendan",
+        "lastName": "Rogers",
+        "email": "leahbradford@yahoo.com",
+        "phoneNumber": "213-233-3639x530",
+        "birthDate": "03-09-1996"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "7524750"
+}

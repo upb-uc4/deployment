@@ -1,1 +1,22 @@
-{"name": "Master Biology v8", "active": true, "modules": [{"id": "M.8704.51797", "name": "Theorotical Biology"}, {"id": "M.5596.51494", "name": "Topics of Biology"}, {"id": "M.0019.34638", "name": "Introduction to Biology"}, {"id": "M.9519.42933", "name": "Experimental Biology"}, {"id": "M.8347.39106", "name": "Introduction to Biology"}]}
+{
+    "name": "Bachelor Religion v8",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.5596.51494",
+            "name": "Applied Religion"
+        },
+        {
+            "id": "M.0019.34638",
+            "name": "Experimental Religion"
+        },
+        {
+            "id": "M.9519.42933",
+            "name": "Applied Religion"
+        },
+        {
+            "id": "M.8347.39106",
+            "name": "Introduction to Religion"
+        }
+    ]
+}

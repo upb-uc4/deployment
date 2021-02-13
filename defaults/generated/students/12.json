@@ -1,1 +1,28 @@
-{"governmentId": "williammarquezGMjdrBlGFblKMQEfuShG", "authUser": {"username": "williammarquez", "password": "williammarquez", "role": "Student"}, "user": {"username": "williammarquez", "enrollmentIdSecret": "", "isActive": true, "role": "Student", "address": {"street": "Maria Fields", "houseNumber": "38812", "zipCode": "08956", "city": "South Kylie", "country": "France"}, "firstName": "Brandon", "lastName": "Hamilton", "email": "bergerdeborah@gmail.com", "phoneNumber": "001-872-507-3590x0060", "birthDate": "05-10-1999"}, "latestImmatriculation": "", "matriculationId": "8745765"}
+{
+    "governmentId": "williammarquezGMjdrBlGFblKMQEfuShG",
+    "authUser": {
+        "username": "williammarquez",
+        "password": "williammarquez",
+        "role": "Student"
+    },
+    "user": {
+        "username": "williammarquez",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Maria Fields",
+            "houseNumber": "38812",
+            "zipCode": "08956",
+            "city": "South Kylie",
+            "country": "France"
+        },
+        "firstName": "Brandon",
+        "lastName": "Hamilton",
+        "email": "bergerdeborah@gmail.com",
+        "phoneNumber": "001-872-507-3590x0060",
+        "birthDate": "05-10-1999"
+    },
+    "latestImmatriculation": "",
+    "matriculationId": "8745765"
+}
