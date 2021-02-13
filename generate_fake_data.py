@@ -65,7 +65,6 @@ def generate_user(role: str):
         "user": {
             "username": profile["username"],
             "enrollmentIdSecret": "",
-            "isActive": True,
             "role": role,
             "address": {
                 "street": fake.street_name(),
@@ -77,8 +76,8 @@ def generate_user(role: str):
             "firstName": profile["name"].split(" ")[0],
             "lastName": profile["name"].split(" ")[1],
             "email": profile["mail"],
+            "birthDate": profile["birthdate"].strftime("%Y-%m-%d"),
             "phoneNumber": fake.phone_number(),
-            "birthDate": profile["birthdate"].strftime("%m-%d-%Y"),
         },
     }
 
@@ -150,7 +149,7 @@ def generate_course():
 
     return {
         "courseId": "",
-        "moduleId": module_ids,
+        "moduleIds": module_ids,
         "courseName": fake.catch_phrase(),
         "courseType": random.choice(COURSE_TYPES),
         "startDate": "2020-12-08",
