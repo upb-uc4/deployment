@@ -1,0 +1,18 @@
+{
+    "name": "Master Religion v5",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.7562.96205",
+            "name": "Introduction to Religion"
+        },
+        {
+            "id": "M.2595.46646",
+            "name": "Applied Religion"
+        },
+        {
+            "id": "M.4670.54258",
+            "name": "Applied Religion"
+        }
+    ]
+}

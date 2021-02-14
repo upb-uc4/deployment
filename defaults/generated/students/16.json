@@ -1,0 +1,28 @@
+{
+    "governmentId": "athleenbenitezZJOeIqtksbisICFHuzRM",
+    "authUser": {
+        "username": "athleenbenitez",
+        "password": "athleenbenitez",
+        "role": "Student"
+    },
+    "user": {
+        "username": "athleenbenitez",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Buchanan Mills",
+            "houseNumber": "6098",
+            "zipCode": "95869",
+            "city": "Lake Nicholas",
+            "country": "Switzerland"
+        },
+        "firstName": "Taylor",
+        "lastName": "Lewis",
+        "email": "sarah15@yahoo.com",
+        "birthDate": "1948-08-07",
+        "phoneNumber": "+689919654085",
+        "latestImmatriculation": "",
+        "matriculationId": "9620839"
+    }
+}

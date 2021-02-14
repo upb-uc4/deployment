@@ -1,0 +1,28 @@
+{
+    "governmentId": "camposCUbxFshoMeRmQHvJnFcV",
+    "authUser": {
+        "username": "campos",
+        "password": "campos",
+        "role": "Student"
+    },
+    "user": {
+        "username": "campos",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Patricia Square",
+            "houseNumber": "82775",
+            "zipCode": "97074",
+            "city": "Jensenfurt",
+            "country": "United States"
+        },
+        "firstName": "Norman",
+        "lastName": "Macdonald",
+        "email": "robin58@yahoo.com",
+        "birthDate": "1964-10-01",
+        "phoneNumber": "+849515752353",
+        "latestImmatriculation": "",
+        "matriculationId": "8291679"
+    }
+}

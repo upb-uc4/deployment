@@ -1,0 +1,28 @@
+{
+    "governmentId": "revorconleyiRVqmuulYeeFxoNuonSa",
+    "authUser": {
+        "username": "revorconley",
+        "password": "revorconley",
+        "role": "Student"
+    },
+    "user": {
+        "username": "revorconley",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Jeffery Lane",
+            "houseNumber": "41484",
+            "zipCode": "77866",
+            "city": "Lake Heatherborough",
+            "country": "Austria"
+        },
+        "firstName": "Corey",
+        "lastName": "Hernandez",
+        "email": "gibsondennis@yahoo.com",
+        "birthDate": "1941-12-23",
+        "phoneNumber": "+408466039548",
+        "latestImmatriculation": "",
+        "matriculationId": "1735847"
+    }
+}

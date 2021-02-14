@@ -1,0 +1,28 @@
+{
+    "governmentId": "indagomezJmOcgWfubWNEnAAcEFce",
+    "authUser": {
+        "username": "indagomez",
+        "password": "indagomez",
+        "role": "Student"
+    },
+    "user": {
+        "username": "indagomez",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Hanson Village",
+            "houseNumber": "8495",
+            "zipCode": "58501",
+            "city": "Tiffanybury",
+            "country": "Switzerland"
+        },
+        "firstName": "Paul",
+        "lastName": "Hicks",
+        "email": "maysmichael@hotmail.com",
+        "birthDate": "2016-12-22",
+        "phoneNumber": "+353405946178",
+        "latestImmatriculation": "",
+        "matriculationId": "5685938"
+    }
+}

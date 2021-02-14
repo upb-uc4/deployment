@@ -1,0 +1,28 @@
+{
+    "governmentId": "marshallqXrGaGTtETcPckjsVTlQ",
+    "authUser": {
+        "username": "marshall",
+        "password": "marshall",
+        "role": "Student"
+    },
+    "user": {
+        "username": "marshall",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Barnes Track",
+            "houseNumber": "9088",
+            "zipCode": "45901",
+            "city": "Lake Jessica",
+            "country": "Poland"
+        },
+        "firstName": "Karen",
+        "lastName": "White",
+        "email": "bowmankevin@yahoo.com",
+        "birthDate": "1990-06-26",
+        "phoneNumber": "+316760933748",
+        "latestImmatriculation": "",
+        "matriculationId": "4626059"
+    }
+}

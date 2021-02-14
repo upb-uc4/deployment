@@ -1,0 +1,28 @@
+{
+    "governmentId": "isanixonuQiLeteJFkHXfOOreAqF",
+    "authUser": {
+        "username": "isanixon",
+        "password": "isanixon",
+        "role": "Student"
+    },
+    "user": {
+        "username": "isanixon",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Katherine Stravenue",
+            "houseNumber": "79047",
+            "zipCode": "95495",
+            "city": "Alexanderland",
+            "country": "Germany"
+        },
+        "firstName": "Scott",
+        "lastName": "Turner",
+        "email": "jbarnes@hotmail.com",
+        "birthDate": "1976-02-19",
+        "phoneNumber": "+594029520560",
+        "latestImmatriculation": "",
+        "matriculationId": "3668800"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "governmentId": "enathomasczHxHwBcIuYnXAGTNmeR",
+    "authUser": {
+        "username": "enathomas",
+        "password": "enathomas",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "enathomas",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Joseph Crescent",
+            "houseNumber": "45505",
+            "zipCode": "08847",
+            "city": "Valeriebury",
+            "country": "Austria"
+        },
+        "firstName": "Jenna",
+        "lastName": "Thomas",
+        "email": "tara06@yahoo.com",
+        "birthDate": "1968-08-17",
+        "phoneNumber": "+265713545045",
+        "freeText": "If step PM exist industry yet pattern century. Hotel can or development state actually. Such key item someone nor probably.",
+        "researchArea": "Agricultural consultant"
+    }
+}

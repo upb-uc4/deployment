@@ -1,0 +1,28 @@
+{
+    "governmentId": "nthonysmithyNORyZdlYTvcJeCfUJzK",
+    "authUser": {
+        "username": "nthonysmith",
+        "password": "nthonysmith",
+        "role": "Student"
+    },
+    "user": {
+        "username": "nthonysmith",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Cory Glen",
+            "houseNumber": "26524",
+            "zipCode": "30578",
+            "city": "Hicksburgh",
+            "country": "Switzerland"
+        },
+        "firstName": "Alexa",
+        "lastName": "Gordon",
+        "email": "conwaydonna@yahoo.com",
+        "birthDate": "1914-01-16",
+        "phoneNumber": "+161812113581",
+        "latestImmatriculation": "",
+        "matriculationId": "2544108"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "governmentId": "arciachristianfGpVTrsbVlQTsGeFetsO",
+    "authUser": {
+        "username": "arciachristian",
+        "password": "arciachristian",
+        "role": "Student"
+    },
+    "user": {
+        "username": "arciachristian",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Gibson Turnpike",
+            "houseNumber": "98963",
+            "zipCode": "38996",
+            "city": "Robertview",
+            "country": "Netherlands"
+        },
+        "firstName": "Scott",
+        "lastName": "Pennington",
+        "email": "ccarter@hotmail.com",
+        "birthDate": "2010-11-20",
+        "phoneNumber": "+161836675312",
+        "latestImmatriculation": "",
+        "matriculationId": "9382058"
+    }
+}

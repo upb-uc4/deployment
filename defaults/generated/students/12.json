@@ -1,0 +1,28 @@
+{
+    "governmentId": "effreydonovanyAKSNAdRBZxrpdAtUrLD",
+    "authUser": {
+        "username": "effreydonovan",
+        "password": "effreydonovan",
+        "role": "Student"
+    },
+    "user": {
+        "username": "effreydonovan",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Lamb Creek",
+            "houseNumber": "818",
+            "zipCode": "02056",
+            "city": "Jeffreybury",
+            "country": "Spain"
+        },
+        "firstName": "Elizabeth",
+        "lastName": "Guzman",
+        "email": "coxcindy@yahoo.com",
+        "birthDate": "1905-04-15",
+        "phoneNumber": "+857176435691",
+        "latestImmatriculation": "",
+        "matriculationId": "2904842"
+    }
+}

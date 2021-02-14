@@ -1,0 +1,28 @@
+{
+    "governmentId": "shley27WkaTIunzWBiZzjLfHgqY",
+    "authUser": {
+        "username": "shley27",
+        "password": "shley27",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "shley27",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Nash Parkway",
+            "houseNumber": "214",
+            "zipCode": "32303",
+            "city": "West Marthaland",
+            "country": "Netherlands"
+        },
+        "firstName": "Shawn",
+        "lastName": "Burnett",
+        "email": "christianchristopher@yahoo.com",
+        "birthDate": "2010-11-18",
+        "phoneNumber": "+163207918342",
+        "freeText": "Us open American work he much figure. Share involve answer clear agency government head. Door receive recent raise seek face star. Music surface sing coach help ground point rock.",
+        "researchArea": "Designer, television/film set"
+    }
+}

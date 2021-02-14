@@ -1,0 +1,28 @@
+{
+    "governmentId": "hristy93bqvOgvHWkyNwMrgfEVnW",
+    "authUser": {
+        "username": "hristy93",
+        "password": "hristy93",
+        "role": "Student"
+    },
+    "user": {
+        "username": "hristy93",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Edward Court",
+            "houseNumber": "6505",
+            "zipCode": "68166",
+            "city": "Bryanview",
+            "country": "Poland"
+        },
+        "firstName": "Melissa",
+        "lastName": "Jones",
+        "email": "clewis@hotmail.com",
+        "birthDate": "1931-02-26",
+        "phoneNumber": "+347167769285",
+        "latestImmatriculation": "",
+        "matriculationId": "3342851"
+    }
+}

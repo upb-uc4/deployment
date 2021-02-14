@@ -1,0 +1,28 @@
+{
+    "governmentId": "ndersonstephanieEPthfVnZjGffrhBxlUUq",
+    "authUser": {
+        "username": "ndersonstephanie",
+        "password": "ndersonstephanie",
+        "role": "Student"
+    },
+    "user": {
+        "username": "ndersonstephanie",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Barry Neck",
+            "houseNumber": "49315",
+            "zipCode": "55665",
+            "city": "Lewisbury",
+            "country": "Netherlands"
+        },
+        "firstName": "Rachel",
+        "lastName": "Hudson",
+        "email": "yvelasquez@hotmail.com",
+        "birthDate": "1964-07-08",
+        "phoneNumber": "+428160904604",
+        "latestImmatriculation": "",
+        "matriculationId": "9031632"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "governmentId": "parkercwEkbeJNpNJTWFKvXAQF",
+    "authUser": {
+        "username": "parker",
+        "password": "parker",
+        "role": "Student"
+    },
+    "user": {
+        "username": "parker",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Smith Springs",
+            "houseNumber": "335",
+            "zipCode": "02779",
+            "city": "Brianchester",
+            "country": "Netherlands"
+        },
+        "firstName": "Ryan",
+        "lastName": "Strickland",
+        "email": "julie48@gmail.com",
+        "birthDate": "1916-03-10",
+        "phoneNumber": "+399414337520",
+        "latestImmatriculation": "",
+        "matriculationId": "5900430"
+    }
+}

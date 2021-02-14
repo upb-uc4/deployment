@@ -1,0 +1,28 @@
+{
+    "governmentId": "amirezjenniferrCudpINDiGwXrAasCKgO",
+    "authUser": {
+        "username": "amirezjennifer",
+        "password": "amirezjennifer",
+        "role": "Student"
+    },
+    "user": {
+        "username": "amirezjennifer",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Poole Walk",
+            "houseNumber": "6318",
+            "zipCode": "06240",
+            "city": "New Jessicatown",
+            "country": "United Kingdom"
+        },
+        "firstName": "Theresa",
+        "lastName": "Richards",
+        "email": "ztyler@yahoo.com",
+        "birthDate": "1986-03-05",
+        "phoneNumber": "+178067399420",
+        "latestImmatriculation": "",
+        "matriculationId": "3205659"
+    }
+}

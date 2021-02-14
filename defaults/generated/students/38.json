@@ -1,0 +1,28 @@
+{
+    "governmentId": "anchezpatrickBcNRyZzgUexHnRsmWTwA",
+    "authUser": {
+        "username": "anchezpatrick",
+        "password": "anchezpatrick",
+        "role": "Student"
+    },
+    "user": {
+        "username": "anchezpatrick",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Beard Rapid",
+            "houseNumber": "5610",
+            "zipCode": "43444",
+            "city": "Cristianmouth",
+            "country": "Switzerland"
+        },
+        "firstName": "Gregory",
+        "lastName": "Farley",
+        "email": "ggriffith@gmail.com",
+        "birthDate": "1931-05-15",
+        "phoneNumber": "+105233963010",
+        "latestImmatriculation": "",
+        "matriculationId": "3959678"
+    }
+}

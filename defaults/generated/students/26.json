@@ -1,0 +1,28 @@
+{
+    "governmentId": "amaramayosQWflqueMHqZvjlVBQpn",
+    "authUser": {
+        "username": "amaramayo",
+        "password": "amaramayo",
+        "role": "Student"
+    },
+    "user": {
+        "username": "amaramayo",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Abigail View",
+            "houseNumber": "66206",
+            "zipCode": "24698",
+            "city": "Lake Sharonfurt",
+            "country": "Belgium"
+        },
+        "firstName": "Michael",
+        "lastName": "Miller",
+        "email": "patriciasmith@hotmail.com",
+        "birthDate": "1934-07-01",
+        "phoneNumber": "+766942038448",
+        "latestImmatriculation": "",
+        "matriculationId": "6781731"
+    }
+}

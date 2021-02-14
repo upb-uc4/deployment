@@ -1,0 +1,14 @@
+{
+    "name": "Bachelor Religion v1",
+    "active": true,
+    "modules": [
+        {
+            "id": "M.3943.35230",
+            "name": "Experimental Religion"
+        },
+        {
+            "id": "M.0077.98036",
+            "name": "Topics of Religion"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "governmentId": "ichael27nZPClSQbJplRQKicMmxS",
+    "authUser": {
+        "username": "ichael27",
+        "password": "ichael27",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "ichael27",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Cory Highway",
+            "houseNumber": "869",
+            "zipCode": "64222",
+            "city": "Hollowayburgh",
+            "country": "Spain"
+        },
+        "firstName": "Nicole",
+        "lastName": "Guzman",
+        "email": "uharris@yahoo.com",
+        "birthDate": "1924-01-14",
+        "phoneNumber": "+427805595493",
+        "freeText": "Special situation this read next. Message none though stop adult need street.",
+        "researchArea": "Engineer, chemical"
+    }
+}
