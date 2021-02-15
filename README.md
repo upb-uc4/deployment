@@ -13,7 +13,7 @@ The current existing clusters are:
 -	Start the internal apache2 server ``` /etc/init.d/apache2 start ```
 
 ## Deploy Vue Frontend
-- 	In Portainer update Ui-web image from vue frontend container
+- 	In Portainer: Update the ui-web image of the vue frontend container
 -	Redeploy Vue frontend container
 
 ## Start Cluster with Hyperledger and Lagom and Co
