@@ -74,4 +74,4 @@ envsubst < services/{serviceName}.yaml | kubectl apply -f -
 ```
 
 ## NGINX
-The nginx configuration used on our server are shown in the [nginx folder](nginx).
+The nginx configurations used on our server are shown in the [nginx folder](nginx).
