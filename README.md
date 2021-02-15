@@ -9,7 +9,7 @@ The current existing clusters are:
  - production
 
 ## Deploy UC4-Website
-- 	In Portainer restart necessary containers (mariaDb needs to be on IP **.4)
+- 	In Portainer: Restart necessary containers (mariaDb needs to be on IP **.4)
 -	Start the internal apache2 server ``` /etc/init.d/apache2 start ```
 
 ## Deploy Vue Frontend
