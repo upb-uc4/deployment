@@ -31,9 +31,22 @@ spec:
               containerPort: 8080
               
           volumeMounts:
-            - name: certorg1
-              mountPath: /web/ca/test.pem
+            - name: cert
+              mountPath: /web/ca/tls-cert.pem
               subPath: cert.pem
+              readOnly: true
+            - name: certorg0
+              mountPath: /web/ca/org0-cert.pem
+              subPath: cert.pem
+              readOnly: true
+            - name: certorg1
+              mountPath: /web/ca/org1-cert.pem
+              subPath: cert.pem
+              readOnly: true
+            - name: certorg2
+              mountPath: /web/ca/org2-cert.pem
+              subPath: cert.pem
+              readOnly: true
 
       volumes:
         - name: cert
