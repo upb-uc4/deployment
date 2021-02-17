@@ -32,7 +32,8 @@ spec:
               
           volumeMounts:
             - name: certorg1
-              mountPath: /web/ca
+              mountPath: /web/ca/test.pem
+              subPath: cert.pem
 
       volumes:
         - name: cert
