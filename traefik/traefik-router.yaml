@@ -87,7 +87,8 @@ spec:
           port: 80
     - match: PathPrefix(`/org1-ca`)
       kind: Rule
-      tls: {}
+      tls:
+        passthrough: true
       services:
         - name: rca-org1
           namespace: hlf
