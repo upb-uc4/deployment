@@ -9,13 +9,14 @@ fi
 set -e
 
 source env.sh
+source versions_$1.sh
 
 ./start_cluster.sh $1
 
 pushd $HLF_NETWORK
-if [ $# -eq 2 ]
+if [ $CHAINCODE_VERSION -eq "latest" ]
 then
-	./deploy.sh -c /data/$1/hyperledger/ -b $2
+	./deploy.sh -c /data/$1/hyperledger/ -b $CHAINCODE_VERSION
 else
 	./deploy.sh -c /data/$1/hyperledger/
 fi
