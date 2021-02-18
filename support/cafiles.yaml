@@ -29,6 +29,9 @@ spec:
           ports:
             - name: management
               containerPort: 8080
+          env:
+            - name: CORS
+              value: "true"
               
           volumeMounts:
             - name: cert
