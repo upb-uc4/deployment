@@ -1,0 +1,28 @@
+{
+    "governmentId": "morseTZRzkJzUqYGMBakmULuV",
+    "authUser": {
+        "username": "morse",
+        "password": "morse",
+        "role": "Student"
+    },
+    "user": {
+        "username": "morse",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Cook Port",
+            "houseNumber": "6391",
+            "zipCode": "89458",
+            "city": "Sabrinabury",
+            "country": "Netherlands"
+        },
+        "firstName": "Justin",
+        "lastName": "Silva",
+        "email": "tfrederick@hotmail.com",
+        "birthDate": "1950-06-22",
+        "phoneNumber": "+385199450547",
+        "latestImmatriculation": "",
+        "matriculationId": "4210378"
+    }
+}

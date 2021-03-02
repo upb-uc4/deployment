@@ -1,0 +1,28 @@
+{
+    "governmentId": "jeffersontfFOTBqbRHGrSNZKUVQt",
+    "authUser": {
+        "username": "jefferson",
+        "password": "jefferson",
+        "role": "Student"
+    },
+    "user": {
+        "username": "jefferson",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Lisa Pike",
+            "houseNumber": "33063",
+            "zipCode": "77559",
+            "city": "Henryburgh",
+            "country": "Switzerland"
+        },
+        "firstName": "James",
+        "lastName": "Anderson",
+        "email": "hallrichard@gmail.com",
+        "birthDate": "1925-09-14",
+        "phoneNumber": "+581083933355",
+        "latestImmatriculation": "",
+        "matriculationId": "6792048"
+    }
+}

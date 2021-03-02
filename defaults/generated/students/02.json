@@ -1,0 +1,28 @@
+{
+    "governmentId": "akermelissafCOLvnoPeYkqpLMuZuck",
+    "authUser": {
+        "username": "akermelissa",
+        "password": "akermelissa",
+        "role": "Student"
+    },
+    "user": {
+        "username": "akermelissa",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Christopher Point",
+            "houseNumber": "76811",
+            "zipCode": "46051",
+            "city": "Andersonfurt",
+            "country": "Belgium"
+        },
+        "firstName": "Denise",
+        "lastName": "Sullivan",
+        "email": "andrew35@hotmail.com",
+        "birthDate": "1937-08-04",
+        "phoneNumber": "+105535764129",
+        "latestImmatriculation": "",
+        "matriculationId": "1935633"
+    }
+}

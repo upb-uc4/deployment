@@ -1,0 +1,28 @@
+{
+    "governmentId": "teven15NbGBruVnwFYrRYbaMRVb",
+    "authUser": {
+        "username": "teven15",
+        "password": "teven15",
+        "role": "Student"
+    },
+    "user": {
+        "username": "teven15",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Marissa Mountains",
+            "houseNumber": "516",
+            "zipCode": "05721",
+            "city": "Lake Daniel",
+            "country": "Germany"
+        },
+        "firstName": "Michael",
+        "lastName": "Ford",
+        "email": "gregory21@hotmail.com",
+        "birthDate": "1946-05-10",
+        "phoneNumber": "+724175805226",
+        "latestImmatriculation": "",
+        "matriculationId": "1076846"
+    }
+}

@@ -1,0 +1,107 @@
+server {
+        listen 443 ssl default_server;
+        listen [::]:443 ssl default_server;
+
+       ssl_certificate
+                /etc/ssl/private/uc4.cs.uni-paderborn.de.pem;
+
+        ssl_certificate_key
+                /etc/ssl/private/uc4.cs.uni-paderborn.de.key;
+
+        root /var/www/html;
+
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name uc4.cs.uni-paderborn.de;
+
+        if ($host != $server_name) {
+            rewrite ^/(.*) $scheme://$server_name/$1 permanent;
+        }
+
+        # github relay
+        location /github/ {
+                proxy_pass http://github.com/upb-uc4/;
+        }
+
+        # lagom api - develop
+        location /api/develop/ {
+                proxy_pass http://localhost:9002/;
+                proxy_buffering off;
+                proxy_set_header X-Real_IP $remote_addr;
+                proxy_set_header Host $host;
+                error_page 502 /service_unavailable.html;
+        }
+
+        # lagom api - production
+        location /api/production/ {
+                proxy_pass http://localhost:9001/;
+                proxy_buffering off;
+                proxy_set_header X-Real_IP $remote_addr;
+                proxy_set_header Host $host;
+                error_page 502 /service_unavailable.html;
+        }
+
+        # lagom api - experimental
+        location /api/experimental/ {
+                proxy_pass http://localhost:9003/;
+                proxy_buffering off;
+                proxy_set_header X-Real_IP $remote_addr;
+                proxy_set_header Host $host;
+                error_page 502 /service_unavailable.html;
+        }
+
+        # db admin
+        location /adminer/ {
+                proxy_pass http://localhost:48080/;
+                error_page 502 /service_unavailable.html;
+        }
+
+        # website
+        location / {
+                add_header 'Access-Control-Allow-Origin' '*' always;
+                proxy_pass http://localhost:50080/;
+                proxy_buffering off;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header Host $host;
+                error_page 502 /service_unavailable.html;
+        }
+
+        # vue deployment
+        location /deploy/ {
+                add_header 'Access-Control-Allow-Origin' '*' always;
+                proxy_pass http://localhost:8080/;
+                root /deploy;
+                proxy_buffering off;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header Host $host;
+                error_page 502 /service_unavailable.html;
+        }
+
+        # webhook
+        location /hooks/ {
+               proxy_pass http://localhost:10000/;
+               proxy_buffering off;
+               proxy_set_header X-Real_IP $remote_addr;
+               proxy_set_header Host $host;
+               error_page 502 /service_unavailable.html;
+        }
+
+        # swagger API
+        location /swagger/ {
+                proxy_pass http://localhost:28080/api/;
+                error_page 502 /service_unavailable.html;
+        }
+
+        # portainer (docker)
+        location /portainer/ {
+             proxy_pass http://localhost:9000/;
+             error_page 502 /service_unavailable.html;
+        }
+
+        location /portainer/api/websocket/ {
+             proxy_set_header Upgrade $http_upgrade;
+             proxy_set_header Connection "upgrade";
+             proxy_http_version 1.1;
+             proxy_pass http://localhost:9000/api/websocket/;
+         }
+}

@@ -1,0 +1,28 @@
+{
+    "governmentId": "brownPfeHoYxGqBFSpyvteBsY",
+    "authUser": {
+        "username": "brown",
+        "password": "brown",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "brown",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Jesse Orchard",
+            "houseNumber": "2488",
+            "zipCode": "01943",
+            "city": "North Catherine",
+            "country": "Germany"
+        },
+        "firstName": "Kelly",
+        "lastName": "Walker",
+        "email": "esmith@yahoo.com",
+        "birthDate": "1940-07-13",
+        "phoneNumber": "+512835112083",
+        "freeText": "Finally time reduce. Difference some citizen. Center show relationship high along.",
+        "researchArea": "Glass blower/designer"
+    }
+}

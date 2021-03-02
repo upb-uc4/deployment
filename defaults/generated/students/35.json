@@ -1,0 +1,28 @@
+{
+    "governmentId": "ichaelrussellJohePUesZVLDwUJRWEBC",
+    "authUser": {
+        "username": "ichaelrussell",
+        "password": "ichaelrussell",
+        "role": "Student"
+    },
+    "user": {
+        "username": "ichaelrussell",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Carroll Curve",
+            "houseNumber": "4388",
+            "zipCode": "99631",
+            "city": "East Amy",
+            "country": "United Kingdom"
+        },
+        "firstName": "Natalie",
+        "lastName": "Carrillo",
+        "email": "rickymendez@hotmail.com",
+        "birthDate": "2001-07-27",
+        "phoneNumber": "+971602478802",
+        "latestImmatriculation": "",
+        "matriculationId": "8935666"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "governmentId": "aniel40MhYRvqshVFEFhIHajtnU",
+    "authUser": {
+        "username": "aniel40",
+        "password": "aniel40",
+        "role": "Student"
+    },
+    "user": {
+        "username": "aniel40",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Dickerson Extension",
+            "houseNumber": "6632",
+            "zipCode": "98632",
+            "city": "Mcguireview",
+            "country": "Netherlands"
+        },
+        "firstName": "Dawn",
+        "lastName": "Martin",
+        "email": "lynndelacruz@gmail.com",
+        "birthDate": "1956-02-08",
+        "phoneNumber": "+569199473803",
+        "latestImmatriculation": "",
+        "matriculationId": "7899725"
+    }
+}

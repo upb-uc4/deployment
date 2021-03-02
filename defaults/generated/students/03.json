@@ -1,0 +1,28 @@
+{
+    "governmentId": "mithianTKTItAPBSqyCqNbBtpuj",
+    "authUser": {
+        "username": "mithian",
+        "password": "mithian",
+        "role": "Student"
+    },
+    "user": {
+        "username": "mithian",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Brown Keys",
+            "houseNumber": "3437",
+            "zipCode": "10289",
+            "city": "South Brianside",
+            "country": "United States"
+        },
+        "firstName": "Amy",
+        "lastName": "Howard",
+        "email": "guyharris@hotmail.com",
+        "birthDate": "1992-08-05",
+        "phoneNumber": "+109449237747",
+        "latestImmatriculation": "",
+        "matriculationId": "9372342"
+    }
+}

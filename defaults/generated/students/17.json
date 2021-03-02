@@ -1,0 +1,28 @@
+{
+    "governmentId": "dgartaylornrCFsoMURFaAdQvxaMvY",
+    "authUser": {
+        "username": "dgartaylor",
+        "password": "dgartaylor",
+        "role": "Student"
+    },
+    "user": {
+        "username": "dgartaylor",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "James Wells",
+            "houseNumber": "88719",
+            "zipCode": "03506",
+            "city": "Morganfort",
+            "country": "Austria"
+        },
+        "firstName": "Richard",
+        "lastName": "Williams",
+        "email": "julie07@hotmail.com",
+        "birthDate": "1944-11-03",
+        "phoneNumber": "+800600074593",
+        "latestImmatriculation": "",
+        "matriculationId": "4055032"
+    }
+}

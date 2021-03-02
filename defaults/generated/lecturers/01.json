@@ -1,0 +1,28 @@
+{
+    "governmentId": "obertmillsOwdPfMmIfKvZRhRUacIz",
+    "authUser": {
+        "username": "obertmills",
+        "password": "obertmills",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "obertmills",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Mendoza Wall",
+            "houseNumber": "26568",
+            "zipCode": "78680",
+            "city": "Johnshire",
+            "country": "France"
+        },
+        "firstName": "Amy",
+        "lastName": "Fox",
+        "email": "latoya41@yahoo.com",
+        "birthDate": "1960-03-02",
+        "phoneNumber": "+732417493556",
+        "freeText": "Or couple deal popular skill stuff local. Medical around question trouble accept. Suffer ago near west least research as.",
+        "researchArea": "Chief Marketing Officer"
+    }
+}

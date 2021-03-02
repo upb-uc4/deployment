@@ -1,0 +1,28 @@
+{
+    "governmentId": "rroyodarylvPMXglDCBZiMOUwuUVRI",
+    "authUser": {
+        "username": "rroyodaryl",
+        "password": "rroyodaryl",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "rroyodaryl",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Olivia Springs",
+            "houseNumber": "890",
+            "zipCode": "91972",
+            "city": "Port Anthony",
+            "country": "United Kingdom"
+        },
+        "firstName": "Nicole",
+        "lastName": "Juarez",
+        "email": "scottgonzalez@gmail.com",
+        "birthDate": "1968-06-15",
+        "phoneNumber": "+109869462340",
+        "freeText": "Sign ahead son song much. East rock course nice.",
+        "researchArea": "Astronomer"
+    }
+}

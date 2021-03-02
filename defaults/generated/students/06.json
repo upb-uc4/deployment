@@ -1,0 +1,28 @@
+{
+    "governmentId": "incent34ywrbWzNvcptcDsgLrfgG",
+    "authUser": {
+        "username": "incent34",
+        "password": "incent34",
+        "role": "Student"
+    },
+    "user": {
+        "username": "incent34",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Luis Union",
+            "houseNumber": "4686",
+            "zipCode": "11974",
+            "city": "Melissaland",
+            "country": "United States"
+        },
+        "firstName": "Stephen",
+        "lastName": "Delgado",
+        "email": "rodneycoffey@yahoo.com",
+        "birthDate": "1915-11-27",
+        "phoneNumber": "+271276644582",
+        "latestImmatriculation": "",
+        "matriculationId": "6392515"
+    }
+}

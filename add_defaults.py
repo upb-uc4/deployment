@@ -2,6 +2,7 @@ import requests
 import os
 import sys
 import json
+import time
 
 def post(url, directory, login_token):
 
@@ -16,11 +17,11 @@ def post(url, directory, login_token):
     for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r', encoding="utf-8") as file:
 
-            response = requests.post(url, json=json.load(file), headers = {"Authorization": "Bearer " + login_token, "Content-Type" : "application/json;charset=utf-8"}, timeout=60)
+            response = requests.post(url, json=json.load(file), headers={"Authorization": "Bearer " + login_token, "Content-Type" : "application/json;charset=utf-8"}, timeout=60)
 
-            if response.status_code != 201 :
+            if response.status_code != 201:
                 print(os.path.splitext(filename)[0] + " => ")
-                print(json.dumps(json.loads(response.text), indent = 4))
+                print(json.dumps(json.loads(response.text), indent=4))
             else:
                 print(os.path.splitext(filename)[0] + " got created")
 
@@ -37,3 +38,12 @@ token = answer.json()["login"]
 post(url_prefix + "/user-management/users", "user", token)
 post(url_prefix + "/examreg-management/examination-regulations", "examreg", token)
 post(url_prefix + "/course-management/courses", "course", token)
+
+# Generated files
+post(url_prefix + "/user-management/users", os.path.join("generated", "admins"), token)
+post(url_prefix + "/user-management/users", os.path.join("generated", "students"), token)
+post(url_prefix + "/user-management/users", os.path.join("generated", "lecturers"), token)
+time.sleep(5)  # Wait to ensure the validation of the next queries is successful
+post(url_prefix + "/examreg-management/examination-regulations", os.path.join("generated", "examRegs"), token)
+time.sleep(5)
+post(url_prefix + "/course-management/courses", os.path.join("generated", "courses"), token)

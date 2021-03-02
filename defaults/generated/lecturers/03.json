@@ -1,0 +1,28 @@
+{
+    "governmentId": "everlystephenssVwJINnpmqdFgCOkZlSd",
+    "authUser": {
+        "username": "everlystephens",
+        "password": "everlystephens",
+        "role": "Lecturer"
+    },
+    "user": {
+        "username": "everlystephens",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Lecturer",
+        "address": {
+            "street": "Harris Vista",
+            "houseNumber": "4704",
+            "zipCode": "33537",
+            "city": "North Aaronton",
+            "country": "Austria"
+        },
+        "firstName": "Rebecca",
+        "lastName": "Bates",
+        "email": "swatson@yahoo.com",
+        "birthDate": "1941-10-18",
+        "phoneNumber": "+804258086918",
+        "freeText": "Near positive responsibility. Thus focus enough your remain.",
+        "researchArea": "Drilling engineer"
+    }
+}

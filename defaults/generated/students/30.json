@@ -1,0 +1,28 @@
+{
+    "governmentId": "elinda24TKjmPHiSabeMdsliIRLc",
+    "authUser": {
+        "username": "elinda24",
+        "password": "elinda24",
+        "role": "Student"
+    },
+    "user": {
+        "username": "elinda24",
+        "enrollmentIdSecret": "",
+        "isActive": true,
+        "role": "Student",
+        "address": {
+            "street": "Martinez Street",
+            "houseNumber": "7255",
+            "zipCode": "59175",
+            "city": "Lake Jamesmouth",
+            "country": "United States"
+        },
+        "firstName": "Jacob",
+        "lastName": "Tucker",
+        "email": "gjohnson@gmail.com",
+        "birthDate": "1967-07-11",
+        "phoneNumber": "+412191237102",
+        "latestImmatriculation": "",
+        "matriculationId": "7343206"
+    }
+}
