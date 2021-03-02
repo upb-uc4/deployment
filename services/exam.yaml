@@ -2,23 +2,23 @@ apiVersion: "apps/v1"
 kind: Deployment
 metadata:
   namespace: uc4-lagom
-  name: matriculation
+  name: exam
 spec:
   replicas: 2
 
   selector:
     matchLabels:
-      app: matriculation
+      app: exam
 
   template:
     metadata:
       namespace: uc4-lagom
       labels:
-        app: matriculation
+        app: exam
     spec:
       containers:
-        - name: matriculation
-          image: "uc4official/matriculation_service:$MATRICULATION_VERSION"
+        - name: exam
+          image: "uc4official/exam_service:$EXAM_VERSION"
           imagePullPolicy: Always
           
           env:
@@ -103,12 +103,12 @@ apiVersion: v1
 kind: Service
 metadata:
   namespace: uc4-lagom
-  name: matriculation
+  name: exam
 spec:
   ports:
     - name: http
       port: 80
       targetPort: 9000
   selector:
-    app: matriculation
+    app: exam
   type: LoadBalancer

@@ -1,0 +1,80 @@
+apiVersion: "apps/v1"
+kind: Deployment
+metadata:
+  namespace: uc4-support
+  name: cafiles
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: cafiles
+
+  template:
+    metadata:
+      namespace: uc4-support
+      labels:
+        app: cafiles
+    spec:
+      containers:
+        - name: cafiles
+          image: halverneus/static-file-server:latest
+          imagePullPolicy: IfNotPresent
+          resources:
+            limits:
+              memory: 512Mi
+            requests:
+              cpu: 0.25
+              memory: 512M
+          ports:
+            - name: management
+              containerPort: 8080
+          env:
+            - name: CORS
+              value: "true"
+              
+          volumeMounts:
+            - name: cert
+              mountPath: /web/ca/tls-cert.pem
+              subPath: cert.pem
+              readOnly: true
+            - name: certorg0
+              mountPath: /web/ca/org0-cert.pem
+              subPath: cert.pem
+              readOnly: true
+            - name: certorg1
+              mountPath: /web/ca/org1-cert.pem
+              subPath: cert.pem
+              readOnly: true
+            - name: certorg2
+              mountPath: /web/ca/org2-cert.pem
+              subPath: cert.pem
+              readOnly: true
+
+      volumes:
+        - name: cert
+          secret:
+            secretName: cert.tls-ca
+        - name: certorg0
+          secret:
+            secretName: cert.rca-org0
+        - name: certorg1
+          secret:
+            secretName: cert.rca-org1
+        - name: certorg2
+          secret:
+            secretName: cert.rca-org2
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: uc4-support
+  name: cafiles
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+  selector:
+    app: cafiles
+  type: LoadBalancer

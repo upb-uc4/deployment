@@ -23,7 +23,7 @@ spec:
           
           env:
             - name: JAVA_OPTS
-              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf"
+              value: "-Xms2G -Xmx2G -Dconfig.resource=prod-application.conf"
             - name: APPLICATION_SECRET
               valueFrom:
                 secretKeyRef:
@@ -77,8 +77,6 @@ spec:
               value: "https://rca-org1.hlf:7052"
               
           resources:
-            limits:
-              memory: 512Mi
             requests:
               cpu: 0.25
               memory: 512M

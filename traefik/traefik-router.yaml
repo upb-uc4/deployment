@@ -73,26 +73,27 @@ spec:
         - name: operation
           namespace: uc4-lagom
           port: 80
-    - match: PathPrefix(`/org1-ca`)
+    - match: PathPrefix(`/exam-management`)
       kind: Rule
       services:
-        - name: rca-org1
-          namespace: hlf
-          port: 7052
-      middlewares:
-        - name: org1-ca-stripprefix
+        - name: exam
+          namespace: uc4-lagom
+          port: 80
+    - match: PathPrefix(`/exam-result-management`)
+      kind: Rule
+      services:
+        - name: examresult
+          namespace: uc4-lagom
+          port: 80
+    - match: PathPrefix(`/ca`)
+      kind: Rule
+      services:
+        - name: cafiles
+          namespace: uc4-support
+          port: 80
     - match: PathPrefix(`/`)
       kind: Rule
       services:
         - name: kubernetes-dashboard
           namespace: kubernetes-dashboard
           port: 80
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: Middleware
-metadata:
-  name: org1-ca-stripprefix
-spec:
-  stripPrefix:
-    prefixes:
-      - /org1-ca
